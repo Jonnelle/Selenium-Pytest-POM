@@ -1,0 +1,43 @@
+[
+  {
+    "name": "产品缺陷",
+    "matchedStatuses": ["failed"],
+    "messageRegex": "AssertionError.*",
+    "description": "由于产品功能问题导致的测试失败"
+  },
+  {
+    "name": "测试基础设施问题",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*TimeoutException.*|.*NoSuchElementException.*|.*WebDriverException.*",
+    "description": "由于测试环境或WebDriver问题导致的测试中断"
+  },
+  {
+    "name": "网络问题",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*ConnectionError.*|.*URLError.*|.*timeout.*",
+    "description": "由于网络连接问题导致的测试失败"
+  },
+  {
+    "name": "页面加载问题",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*页面加载失败.*|.*加载超时.*",
+    "description": "页面加载相关的问题"
+  },
+  {
+    "name": "元素定位问题",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*element not found.*|.*元素不可见.*|.*not clickable.*",
+    "description": "页面元素定位或交互问题"
+  },
+  {
+    "name": "数据验证问题",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*数据不匹配.*|.*验证失败.*|.*期望.*实际.*",
+    "description": "数据验证相关的问题"
+  },
+  {
+    "name": "跳过的测试",
+    "matchedStatuses": ["skipped"],
+    "description": "由于条件不满足而跳过的测试"
+  }
+]

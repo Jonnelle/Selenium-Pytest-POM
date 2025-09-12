@@ -1,0 +1,71 @@
+{
+  "valid_user": {
+    "first_name": "Test",
+    "last_name": "User",
+    "email": "testuser@example.com",
+    "password": "Test123456",
+    "company": "Test Company",
+    "address": "123 Test Street",
+    "address2": "Apt 4B",
+    "country": "India",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "zipcode": "110001",
+    "mobile_number": "9876543210"
+  },
+  "valid_user_2": {
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "email": "janesmith@example.com",
+    "password": "Jane123456",
+    "company": "Smith Corp",
+    "address": "456 Smith Avenue",
+    "address2": "Suite 100",
+    "country": "India",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "zipcode": "400001",
+    "mobile_number": "9123456789"
+  },
+  "invalid_user": {
+    "first_name": "",
+    "last_name": "",
+    "email": "invalid-email",
+    "password": "123",
+    "company": "",
+    "address": "",
+    "address2": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "zipcode": "",
+    "mobile_number": "invalid"
+  },
+  "existing_user": {
+    "email": "existing@example.com",
+    "password": "ExistingUser123"
+  },
+  "test_login_users": [
+    {
+      "email": "testuser@example.com",
+      "password": "Test123456",
+      "expected_result": "success"
+    },
+    {
+      "email": "invalid@email.com",
+      "password": "wrongpassword",
+      "expected_result": "failure"
+    },
+    {
+      "email": "",
+      "password": "",
+      "expected_result": "failure"
+    },
+    {
+      "email": "user@test.com",
+      "password": "invalidpass",
+      "expected_result": "failure"
+    }
+  ],
+  "generated_users": []
+}

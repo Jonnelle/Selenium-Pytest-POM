@@ -1,0 +1,140 @@
+version: '3.8'
+
+services:
+  # 主测试服务
+  automation-tests:
+    build: .
+    container_name: automation-exercise-tests
+    volumes:
+      - ./reports:/app/reports
+      - ./data:/app/data
+    environment:
+      - BROWSER=chrome
+      - HEADLESS=true
+      - PARALLEL_WORKERS=2
+      - BASE_URL=https://automationexercise.com
+    networks:
+      - test-network
+    command: ["python", "run_tests.py", "--test-type", "smoke", "--headless", "--generate-report"]
+
+  # Chrome测试服务
+  test-chrome:
+    build: .
+    container_name: test-chrome
+    volumes:
+      - ./reports:/app/reports
+    environment:
+      - BROWSER=chrome
+      - HEADLESS=true
+    networks:
+      - test-network
+    profiles:
+      - chrome
+    command: ["python", "run_tests.py", "--test-type", "smoke", "--browser", "chrome", "--headless"]
+
+  # Firefox测试服务
+  test-firefox:
+    build: .
+    container_name: test-firefox
+    volumes:
+      - ./reports:/app/reports
+    environment:
+      - BROWSER=firefox
+      - HEADLESS=true
+    networks:
+      - test-network
+    profiles:
+      - firefox
+    command: ["python", "run_tests.py", "--test-type", "smoke", "--browser", "firefox", "--headless"]
+
+  # 并行测试服务
+  test-parallel:
+    build: .
+    container_name: test-parallel
+    volumes:
+      - ./reports:/app/reports
+    environment:
+      - BROWSER=chrome
+      - HEADLESS=true
+      - PARALLEL_WORKERS=4
+    networks:
+      - test-network
+    profiles:
+      - parallel
+    command: ["python", "run_tests.py", "--test-type", "regression", "--parallel", "--workers", "4", "--headless"]
+
+  # Allure报告服务
+  allure-server:
+    image: frankescobar/allure-docker-service
+    container_name: allure-server
+    ports:
+      - "5050:5050"
+    volumes:
+      - ./reports/allure-results:/app/allure-results
+      - ./reports/allure-reports:/app/default-reports
+    environment:
+      - ALLURE_DOCKER_PUBLIC_API_URL=http://localhost:5050
+      - ALLURE_DOCKER_PUBLIC_API_URL_PREFIX=/allure-docker-service
+    networks:
+      - test-network
+    profiles:
+      - reports
+
+  # Selenium Grid Hub（高级用法）
+  selenium-hub:
+    image: selenium/hub:4.15.0
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+    environment:
+      - GRID_MAX_SESSION=16
+      - GRID_BROWSER_TIMEOUT=300
+      - GRID_TIMEOUT=300
+    networks:
+      - test-network
+    profiles:
+      - grid
+
+  # Chrome节点
+  chrome-node:
+    image: selenium/node-chrome:4.15.0
+    container_name: chrome-node
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+      - NODE_MAX_INSTANCES=2
+      - NODE_MAX_SESSION=2
+    volumes:
+      - /dev/shm:/dev/shm
+    networks:
+      - test-network
+    profiles:
+      - grid
+
+  # Firefox节点
+  firefox-node:
+    image: selenium/node-firefox:4.15.0
+    container_name: firefox-node
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+      - NODE_MAX_INSTANCES=2
+      - NODE_MAX_SESSION=2
+    volumes:
+      - /dev/shm:/dev/shm
+    networks:
+      - test-network
+    profiles:
+      - grid
+
+networks:
+  test-network:
+    driver: bridge
+
+volumes:
+  allure-results:
+  allure-reports:

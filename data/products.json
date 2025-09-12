@@ -1,0 +1,182 @@
+{
+  "featured_products": [
+    {
+      "id": 1,
+      "name": "Blue Top",
+      "price": "Rs. 500",
+      "category": "Women > Tops",
+      "brand": "H&M"
+    },
+    {
+      "id": 2,
+      "name": "Men Tshirt",
+      "price": "Rs. 400",
+      "category": "Men > Tshirts",
+      "brand": "Polo"
+    },
+    {
+      "id": 3,
+      "name": "Sleeveless Dress",
+      "price": "Rs. 1000",
+      "category": "Women > Dress",
+      "brand": "Madame"
+    },
+    {
+      "id": 4,
+      "name": "Stylish Dress",
+      "price": "Rs. 1500",
+      "category": "Women > Dress",
+      "brand": "Biba"
+    },
+    {
+      "id": 5,
+      "name": "Winter Top",
+      "price": "Rs. 600",
+      "category": "Women > Tops",
+      "brand": "H&M"
+    },
+    {
+      "id": 6,
+      "name": "Summer White Top",
+      "price": "Rs. 400",
+      "category": "Women > Tops",
+      "brand": "Madame"
+    }
+  ],
+  "search_terms": [
+    {
+      "term": "top",
+      "expected_results": ["Blue Top", "Winter Top", "Summer White Top"],
+      "category": "Women > Tops"
+    },
+    {
+      "term": "dress",
+      "expected_results": ["Sleeveless Dress", "Stylish Dress"],
+      "category": "Women > Dress"
+    },
+    {
+      "term": "tshirt",
+      "expected_results": ["Men Tshirt"],
+      "category": "Men > Tshirts"
+    },
+    {
+      "term": "jeans",
+      "expected_results": ["Soft Stretch Jeans", "Regular Fit Straight Jeans"],
+      "category": "Men > Jeans"
+    },
+    {
+      "term": "saree",
+      "expected_results": ["Cotton Silk Hand Block Print Saree", "Rust Red Linen Saree"],
+      "category": "Women > Saree"
+    },
+    {
+      "term": "kids",
+      "expected_results": ["Frozen Tops For Kids", "Little Girls Mr. Panda Shirt"],
+      "category": "Kids"
+    },
+    {
+      "term": "nonexistent",
+      "expected_results": [],
+      "category": null
+    }
+  ],
+  "categories": [
+    {
+      "name": "Women",
+      "subcategories": [
+        {
+          "name": "Dress",
+          "url": "/category_products/1"
+        },
+        {
+          "name": "Tops",
+          "url": "/category_products/2"
+        },
+        {
+          "name": "Saree",
+          "url": "/category_products/7"
+        }
+      ]
+    },
+    {
+      "name": "Men",
+      "subcategories": [
+        {
+          "name": "Tshirts",
+          "url": "/category_products/3"
+        },
+        {
+          "name": "Jeans",
+          "url": "/category_products/6"
+        }
+      ]
+    },
+    {
+      "name": "Kids",
+      "subcategories": [
+        {
+          "name": "Dress",
+          "url": "/category_products/4"
+        },
+        {
+          "name": "Tops & Shirts",
+          "url": "/category_products/5"
+        }
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "name": "Polo",
+      "product_count": 6,
+      "url": "/brand_products/Polo"
+    },
+    {
+      "name": "H&M",
+      "product_count": 5,
+      "url": "/brand_products/H&M"
+    },
+    {
+      "name": "Madame",
+      "product_count": 5,
+      "url": "/brand_products/Madame"
+    },
+    {
+      "name": "Mast & Harbour",
+      "product_count": 3,
+      "url": "/brand_products/Mast & Harbour"
+    },
+    {
+      "name": "Babyhug",
+      "product_count": 4,
+      "url": "/brand_products/Babyhug"
+    },
+    {
+      "name": "Allen Solly Junior",
+      "product_count": 3,
+      "url": "/brand_products/Allen Solly Junior"
+    },
+    {
+      "name": "Kookie Kids",
+      "product_count": 3,
+      "url": "/brand_products/Kookie Kids"
+    },
+    {
+      "name": "Biba",
+      "product_count": 5,
+      "url": "/brand_products/Biba"
+    }
+  ],
+  "cart_test_products": [
+    {
+      "name": "Blue Top",
+      "price": "Rs. 500",
+      "quantity": 1
+    },
+    {
+      "name": "Men Tshirt",
+      "price": "Rs. 400",
+      "quantity": 2
+    }
+  ]
+}
