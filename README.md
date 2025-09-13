@@ -133,6 +133,7 @@ pytest --alluredir=reports/allure-results --html=reports/html/report.html
 ## DEMO
 
 `python run_tests.py --test-type login --generate-report --serve-report`
+
 ![allure-1](.\imgs\allure-1.png "allure-1")
 
 
