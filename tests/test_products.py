@@ -146,7 +146,7 @@ class TestProducts(BaseTest):
     @allure.story("产品搜索")
     @allure.title("特殊字符搜索测试")
     @allure.description("测试使用特殊字符进行搜索")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.product
     @pytest.mark.regression
     def test_special_character_search(self):
@@ -281,7 +281,7 @@ class TestProducts(BaseTest):
     @allure.story("产品交互")
     @allure.title("产品悬停效果")
     @allure.description("测试鼠标悬停在产品上的效果")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.product
     def test_product_hover_effect(self):
         """测试产品悬停效果"""
@@ -301,7 +301,7 @@ class TestProducts(BaseTest):
     @allure.story("性能测试")
     @allure.title("产品页面加载性能")
     @allure.description("测试产品页面的加载性能")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.slow
     def test_products_page_performance(self):
         """测试产品页面加载性能"""
@@ -327,7 +327,7 @@ class TestProducts(BaseTest):
     @allure.story("性能测试")
     @allure.title("搜索响应时间")
     @allure.description("测试产品搜索的响应时间")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.slow
     def test_search_response_time(self):
         """测试搜索响应时间"""
@@ -354,7 +354,7 @@ class TestProducts(BaseTest):
     @allure.story("错误处理")
     @allure.title("网络错误处理")
     @allure.description("测试产品页面在网络错误情况下的表现")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.regression
     def test_network_error_handling(self):
         """测试网络错误处理"""

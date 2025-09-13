@@ -324,7 +324,7 @@ class TestUserAuthentication(BaseTest):
     @allure.story("性能测试")
     @allure.title("登录响应时间测试")
     @allure.description("测试登录操作的响应时间")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.slow
     def test_login_response_time(self):
         """测试登录响应时间"""

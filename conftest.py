@@ -119,8 +119,29 @@ def _setup_chrome_driver(headless: bool, config: ConfigManager) -> webdriver.Chr
     }
     options.add_experimental_option("prefs", prefs)
 
-    service = ChromeService(ChromeDriverManager().install())
-    return webdriver.Chrome(service=service, options=options)
+    # 修复ChromeDriver路径问题
+    try:
+        # 清理并重新获取ChromeDriver
+        driver_path = ChromeDriverManager().install()
+
+        # 确保路径指向正确的chromedriver.exe
+        if not driver_path.endswith('.exe'):
+            # 如果路径不是.exe文件，尝试找到正确的chromedriver.exe
+            import os
+            driver_dir = os.path.dirname(driver_path)
+            for file in os.listdir(driver_dir):
+                if file.startswith('chromedriver') and file.endswith('.exe'):
+                    driver_path = os.path.join(driver_dir, file)
+                    break
+
+        service = ChromeService(driver_path)
+        return webdriver.Chrome(service=service, options=options)
+
+    except Exception as e:
+        # 如果自动下载失败，尝试使用系统PATH中的chromedriver
+        print(f"自动下载ChromeDriver失败，尝试使用系统ChromeDriver: {e}")
+        service = ChromeService()  # 使用系统PATH中的chromedriver
+        return webdriver.Chrome(service=service, options=options)
 
 
 def _setup_firefox_driver(headless: bool, config: ConfigManager) -> webdriver.Firefox:

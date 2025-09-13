@@ -240,7 +240,7 @@ class TestContactUs(BaseTest):
     @allure.story("用户体验")
     @allure.title("表单字段清空功能")
     @allure.description("测试表单字段的清空功能")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.contact
     def test_form_clear_functionality(self):
         """测试表单清空功能"""
@@ -271,7 +271,7 @@ class TestContactUs(BaseTest):
     @allure.story("性能测试")
     @allure.title("表单提交响应时间")
     @allure.description("测试联系表单提交的响应时间")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.slow
     def test_form_submission_response_time(self):
         """测试表单提交响应时间"""
@@ -336,7 +336,7 @@ class TestContactUs(BaseTest):
     @allure.story("错误处理")
     @allure.title("网络错误处理")
     @allure.description("测试联系表单在网络错误情况下的表现")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.regression
     def test_network_error_handling(self):
         """测试网络错误处理"""
@@ -364,7 +364,7 @@ class TestContactUs(BaseTest):
     @allure.story("可访问性")
     @allure.title("表单可访问性测试")
     @allure.description("测试联系表单的基本可访问性")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.contact
     def test_form_accessibility(self):
         """测试表单可访问性"""

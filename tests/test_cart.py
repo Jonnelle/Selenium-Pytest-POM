@@ -5,6 +5,7 @@
 import pytest
 import allure
 import time
+from selenium.webdriver.common.by import By
 from tests.base_test import BaseTest
 from utils.logger import log
 
@@ -405,7 +406,7 @@ class TestCart(BaseTest):
     @allure.story("性能测试")
     @allure.title("购物车操作响应时间")
     @allure.description("测试购物车各种操作的响应时间")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.slow
     def test_cart_operations_performance(self):
         """测试购物车操作性能"""
@@ -439,7 +440,7 @@ class TestCart(BaseTest):
     @allure.story("边界测试")
     @allure.title("购物车容量测试")
     @allure.description("测试购物车的最大容量限制")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.cart
     @pytest.mark.slow
     def test_cart_capacity_limits(self):

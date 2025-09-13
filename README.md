@@ -14,12 +14,12 @@
 - ✅ **CI/CD集成**: GitHub Actions支持
 - ✅ **智能等待策略**: 显式等待和重试机制
 - ✅ **截图和日志**: 失败自动截图，详细日志记录
-- ✅ **配置管理**: 灵活的配置文件系统
+- ✅ **配置管理**: 灵活的配置文件系统 
 
 ## 🏗️ 项目架构
 
 ```
-automation-exercise-tests/
+Selenium-Pytest-POM/
 ├── 📁 .github/workflows/        # CI/CD配置
 ├── 📁 config/                   # 配置文件
 ├── 📁 data/                     # 测试数据
@@ -45,24 +45,24 @@ automation-exercise-tests/
 ### 安装步骤
 
 1. **克隆项目**
-```bash
+```
 git clone <repository-url>
-cd automation-exercise-tests
+cd Selenium-Pytest-POM
 ```
 
 2. **安装依赖**
-```bash
+```
 pip install -r requirements.txt
 ```
 
 3. **配置环境变量** (可选)
-```bash
+```
 cp .env.example .env
 # 编辑 .env 文件，设置个人配置
 ```
 
 4. **验证安装**
-```bash
+```
 python run_tests.py --check-deps
 ```
 
@@ -70,7 +70,7 @@ python run_tests.py --check-deps
 
 #### 🔥 快速运行
 
-```bash
+```
 # 运行冒烟测试
 python run_tests.py --test-type smoke
 
@@ -83,7 +83,7 @@ python run_tests.py --test-type all
 
 #### ⚙️ 高级选项
 
-```bash
+```
 # 指定浏览器
 python run_tests.py --browser firefox --test-type smoke
 
@@ -99,7 +99,7 @@ python run_tests.py --test-type smoke --generate-report --serve-report
 
 #### 🎯 按功能模块运行
 
-```bash
+```
 # 登录功能测试
 python run_tests.py --test-type login
 
@@ -115,7 +115,7 @@ python run_tests.py --test-type contact
 
 #### 📊 直接使用Pytest
 
-```bash
+```
 # 基本运行
 pytest -m smoke -v
 
@@ -179,7 +179,7 @@ pytest --alluredir=reports/allure-results --html=reports/html/report.html
 
 ### 查看报告
 
-```bash
+```
 # 生成Allure报告
 allure generate reports/allure-results -o reports/allure-reports --clean
 
@@ -190,7 +190,7 @@ allure serve reports/allure-results
 ## ⚙️ 配置说明
 
 ### 浏览器配置 (`config/config.yaml`)
-```yaml
+```
 browser:
   default: "chrome"
   headless: false
@@ -200,7 +200,7 @@ browser:
 ```
 
 ### 环境变量 (`.env`)
-```bash
+```
 BASE_URL=https://automationexercise.com
 BROWSER=chrome
 HEADLESS=false
@@ -208,7 +208,7 @@ LOG_LEVEL=INFO
 ```
 
 ### Pytest配置 (`pytest.ini`)
-```ini
+```
 [tool:pytest]
 markers =
     smoke: 冒烟测试
@@ -222,7 +222,7 @@ markers =
 ### 添加新的测试用例
 
 1. **创建页面对象** (如果需要)
-```python
+```
 # pages/new_page.py
 from pages.base_page import BasePage
 
@@ -234,7 +234,7 @@ class NewPage(BasePage):
 ```
 
 2. **编写测试用例**
-```python
+```
 # tests/test_new_feature.py
 import pytest
 import allure
@@ -252,7 +252,7 @@ class TestNewFeature(BaseTest):
 
 ### 添加测试数据
 
-```python
+```
 # data/new_data.json
 {
   "test_data": {
@@ -264,7 +264,7 @@ class TestNewFeature(BaseTest):
 
 ### 工具类使用
 
-```python
+```
 # 使用配置管理器
 from utils.config_manager import ConfigManager
 config = ConfigManager()
@@ -329,39 +329,19 @@ pytest -m slow --browser=chrome --headless
 ### 常见问题
 
 **问题**: 元素找不到
-```bash
+```
 # 解决方案：增加等待时间或更新定位器
 ```
 
 **问题**: 浏览器启动失败
-```bash
+```
 # 解决方案：检查浏览器安装和WebDriver版本
 ```
 
 **问题**: 测试超时
-```bash
+```
 # 解决方案：检查网络连接或增加超时时间
 ```
-
-## 📚 最佳实践
-
-### 测试设计
-- ✅ 使用描述性的测试名称
-- ✅ 保持测试独立性
-- ✅ 使用适当的断言
-- ✅ 添加详细的测试步骤
-
-### 代码质量
-- ✅ 遵循PEP 8编码规范
-- ✅ 添加必要的注释和文档
-- ✅ 使用类型提示
-- ✅ 定期代码审查
-
-### 维护性
-- ✅ 定期更新依赖包
-- ✅ 维护测试数据
-- ✅ 更新页面对象
-- ✅ 监控测试稳定性
 
 ## 🤝 贡献指南
 
@@ -371,15 +351,6 @@ pytest -m slow --browser=chrome --headless
 4. 推送到分支 (`git push origin feature/amazing-feature`)
 5. 创建Pull Request
 
-## 📄 许可证
-
-本项目采用MIT许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
-
-## 📞 支持与反馈
-
-- 🐛 **Bug报告**: [Issues](../../issues)
-- 💡 **功能建议**: [Discussions](../../discussions)
-- 📧 **邮件联系**: automation-team@example.com
 
 ## 🙏 致谢
 

@@ -61,8 +61,8 @@ class TestRunner:
         """
         print(f"🚀 开始运行{test_type}测试...")
 
-        # 构建pytest命令
-        cmd = ["python", "-m", "pytest"]
+        # 构建pytest命令 - 使用当前Python解释器
+        cmd = [sys.executable, "-m", "pytest"]
 
         # 测试标记
         if test_type == "smoke":

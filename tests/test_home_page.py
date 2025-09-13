@@ -211,7 +211,7 @@ class TestHomePage(BaseTest):
     @allure.story("推荐商品")
     @allure.title("验证推荐商品区域")
     @allure.description("测试首页推荐商品区域显示")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.product
     def test_recommended_items(self):
         """测试推荐商品"""
@@ -227,7 +227,7 @@ class TestHomePage(BaseTest):
     @allure.story("页面滚动")
     @allure.title("验证页面滚动功能")
     @allure.description("测试首页滚动到顶部和底部功能")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.navigation
     def test_page_scrolling(self):
         """测试页面滚动"""
@@ -254,7 +254,7 @@ class TestHomePage(BaseTest):
     @allure.story("响应式测试")
     @allure.title("验证页面响应式布局")
     @allure.description("测试不同窗口大小下的页面布局")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.slow
     def test_responsive_layout(self):
         """测试响应式布局"""
@@ -285,7 +285,7 @@ class TestHomePage(BaseTest):
     @allure.story("错误处理")
     @allure.title("验证页面错误处理")
     @allure.description("测试页面在异常情况下的表现")
-    @allure.severity(allure.severity_level.LOW)
+    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.regression
     def test_error_handling(self):
         """测试错误处理"""
