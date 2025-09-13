@@ -1,0 +1,19 @@
+2025-09-13 17:51:15 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_login_parametrized
+2025-09-13 17:51:15 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 17:51:23 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 17:51:23 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/login'
+2025-09-13 17:51:23 | INFO | utils.logger:step:86 | 🔸 STEP: Opened login page
+2025-09-13 17:51:23 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying login page loaded
+2025-09-13 17:51:23 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:51:23 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:51:23 | INFO | utils.logger:step:86 | 🔸 STEP: Logging in user: user@test.com
+2025-09-13 17:51:23 | INFO | utils.logger:step:86 | 🔸 STEP: Filling login form with email: user@test.com
+2025-09-13 17:51:23 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='login-email']''
+2025-09-13 17:51:23 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='login-email']' text='user@test.com''
+2025-09-13 17:51:24 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='login-password']''
+2025-09-13 17:51:24 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='login-password']' text='invalidpass''
+2025-09-13 17:51:24 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking login button
+2025-09-13 17:51:24 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'xpath='//button[@data-qa='login-button']''
+2025-09-13 17:51:28 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'xpath='//button[@data-qa='login-button']''
+2025-09-13 17:51:31 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 17:51:34 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_login_parametrized - COMPLETED (19.15s)

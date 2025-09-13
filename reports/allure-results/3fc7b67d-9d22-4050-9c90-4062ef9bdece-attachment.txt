@@ -1,0 +1,10 @@
+2025-09-13 15:39:16 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_product_search_basic
+2025-09-13 15:39:16 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 15:39:16 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_product_search_basic - COMPLETED (0.03s)
+2025-09-13 15:39:19 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_product_search_basic
+2025-09-13 15:39:19 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 15:39:19 | ERROR | utils.logger:error:74 | 浏览器设置失败: local variable 'os' referenced before assignment
+2025-09-13 15:39:19 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_product_search_basic - COMPLETED (0.05s)
+2025-09-13 15:39:22 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_product_search_basic
+2025-09-13 15:39:22 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 15:39:22 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_product_search_basic - COMPLETED (0.04s)

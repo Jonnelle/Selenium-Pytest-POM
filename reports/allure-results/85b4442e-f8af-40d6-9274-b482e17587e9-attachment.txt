@@ -1,0 +1,57 @@
+2025-09-13 16:47:49 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_add_product_to_cart
+2025-09-13 16:47:49 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 16:48:04 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 16:48:04 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/products'
+2025-09-13 16:48:04 | INFO | utils.logger:step:86 | 🔸 STEP: Opened products page
+2025-09-13 16:48:04 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying products page loaded
+2025-09-13 16:48:04 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:48:04 | INFO | utils.logger:step:86 | 🔸 STEP: Adding first product to cart
+2025-09-13 16:48:04 | INFO | utils.logger:step:86 | 🔸 STEP: Adding product 0 to cart
+2025-09-13 16:48:04 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found elements on 'xpath='//a[contains(@class, 'add-to-cart')]' (count: 68)'
+2025-09-13 16:48:04 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found element on 'xpath='//a[contains(@class, 'add-to-cart')]''
+2025-09-13 16:48:04 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Scrolled to element on 'xpath='//a[contains(@class, 'add-to-cart')]''
+2025-09-13 16:48:04 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying modal appeared
+2025-09-13 16:48:05 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:48:05 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking view cart from modal
+2025-09-13 16:48:26 | WARNING | utils.logger:warning:70 | Element not clickable: ('xpath', "//a[text()='View Cart']")
+2025-09-13 16:48:28 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Took screenshot on 'reports/screenshots/assertion_failed.png'
+2025-09-13 16:48:28 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 16:48:31 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_add_product_to_cart - COMPLETED (41.93s)
+2025-09-13 16:48:34 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_add_product_to_cart
+2025-09-13 16:48:34 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 16:48:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 16:48:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/products'
+2025-09-13 16:48:46 | INFO | utils.logger:step:86 | 🔸 STEP: Opened products page
+2025-09-13 16:48:46 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying products page loaded
+2025-09-13 16:48:46 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:48:46 | INFO | utils.logger:step:86 | 🔸 STEP: Adding first product to cart
+2025-09-13 16:48:46 | INFO | utils.logger:step:86 | 🔸 STEP: Adding product 0 to cart
+2025-09-13 16:48:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found elements on 'xpath='//a[contains(@class, 'add-to-cart')]' (count: 68)'
+2025-09-13 16:48:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found element on 'xpath='//a[contains(@class, 'add-to-cart')]''
+2025-09-13 16:48:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Scrolled to element on 'xpath='//a[contains(@class, 'add-to-cart')]''
+2025-09-13 16:48:46 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying modal appeared
+2025-09-13 16:48:46 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:48:46 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking view cart from modal
+2025-09-13 16:49:07 | WARNING | utils.logger:warning:70 | Element not clickable: ('xpath', "//a[text()='View Cart']")
+2025-09-13 16:49:10 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Took screenshot on 'reports/screenshots/assertion_failed.png'
+2025-09-13 16:49:10 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 16:49:12 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_add_product_to_cart - COMPLETED (38.44s)
+2025-09-13 16:49:15 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_add_product_to_cart
+2025-09-13 16:49:15 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 16:49:42 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 16:49:42 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/products'
+2025-09-13 16:49:42 | INFO | utils.logger:step:86 | 🔸 STEP: Opened products page
+2025-09-13 16:49:42 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying products page loaded
+2025-09-13 16:49:42 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:49:42 | INFO | utils.logger:step:86 | 🔸 STEP: Adding first product to cart
+2025-09-13 16:49:42 | INFO | utils.logger:step:86 | 🔸 STEP: Adding product 0 to cart
+2025-09-13 16:49:42 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found elements on 'xpath='//a[contains(@class, 'add-to-cart')]' (count: 68)'
+2025-09-13 16:49:42 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found element on 'xpath='//a[contains(@class, 'add-to-cart')]''
+2025-09-13 16:49:42 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Scrolled to element on 'xpath='//a[contains(@class, 'add-to-cart')]''
+2025-09-13 16:49:42 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying modal appeared
+2025-09-13 16:49:43 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:49:43 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking view cart from modal
+2025-09-13 16:50:04 | WARNING | utils.logger:warning:70 | Element not clickable: ('xpath', "//a[text()='View Cart']")
+2025-09-13 16:50:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Took screenshot on 'reports/screenshots/assertion_failed.png'
+2025-09-13 16:50:07 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 16:50:09 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_add_product_to_cart - COMPLETED (53.78s)

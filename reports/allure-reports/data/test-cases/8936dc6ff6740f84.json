@@ -1,0 +1,424 @@
+{
+  "uid" : "8936dc6ff6740f84",
+  "name" : "新用户注册成功",
+  "fullName" : "tests.test_user_authentication.TestUserAuthentication#test_user_registration_success",
+  "historyId" : "bbb28ae732ff3d8468339a63474c4426",
+  "time" : {
+    "start" : 1757751133077,
+    "stop" : 1757751155629,
+    "duration" : 22552
+  },
+  "description" : "测试新用户完整的注册流程",
+  "descriptionHtml" : "<p>测试新用户完整的注册流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757751125263,
+      "stop" : 1757751125274,
+      "duration" : 11
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757751125246,
+      "stop" : 1757751125263,
+      "duration" : 17
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757751132976,
+      "stop" : 1757751133076,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication",
+    "time" : {
+      "start" : 1757751125274,
+      "stop" : 1757751125274,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757751131468,
+      "stop" : 1757751132974,
+      "duration" : 1506
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757751125274,
+      "stop" : 1757751131468,
+      "duration" : 6194
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757751125132,
+      "stop" : 1757751125246,
+      "duration" : 114
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试新用户完整的注册流程",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "导航到登录页面",
+      "time" : {
+        "start" : 1757751133079,
+        "stop" : 1757751141311,
+        "duration" : 8232
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "导航到登录页面",
+        "time" : {
+          "start" : 1757751133079,
+          "stop" : 1757751141311,
+          "duration" : 8232
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证登录页面页面加载",
+          "time" : {
+            "start" : 1757751141244,
+            "stop" : 1757751141311,
+            "duration" : 67
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证注册表单可见",
+      "time" : {
+        "start" : 1757751141311,
+        "stop" : 1757751141338,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "填写注册信息",
+      "time" : {
+        "start" : 1757751141338,
+        "stop" : 1757751143526,
+        "duration" : 2188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证注册详情页面加载",
+      "time" : {
+        "start" : 1757751143526,
+        "stop" : 1757751143580,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "验证注册详情页面页面加载",
+        "time" : {
+          "start" : 1757751143526,
+          "stop" : 1757751143580,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证姓名和邮箱预填充",
+      "time" : {
+        "start" : 1757751143580,
+        "stop" : 1757751143659,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "完成注册信息",
+      "time" : {
+        "start" : 1757751143659,
+        "stop" : 1757751150330,
+        "duration" : 6671
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证账户创建成功",
+      "time" : {
+        "start" : 1757751150330,
+        "stop" : 1757751150402,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "验证账户创建成功页面页面加载",
+        "time" : {
+          "start" : 1757751150331,
+          "stop" : 1757751150368,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击继续按钮",
+      "time" : {
+        "start" : 1757751150402,
+        "stop" : 1757751155604,
+        "duration" : 5202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证登录成功",
+      "time" : {
+        "start" : 1757751155604,
+        "stop" : 1757751155629,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4b2958da1c835ef8",
+      "name" : "stdout",
+      "source" : "4b2958da1c835ef8.txt",
+      "type" : "text/plain",
+      "size" : 9829
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 13,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication::0",
+    "time" : {
+      "start" : 1757751157863,
+      "stop" : 1757751157863,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757751155635,
+      "stop" : 1757751157863,
+      "duration" : 2228
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户注册"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "用户认证功能"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAuthentication"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "6272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke", "login", "allure" ]
+  },
+  "source" : "8936dc6ff6740f84.json",
+  "parameterValues" : [ ]
+}

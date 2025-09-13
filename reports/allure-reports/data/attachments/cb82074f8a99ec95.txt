@@ -1,0 +1,22 @@
+2025-09-13 16:47:28 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_product_search_basic
+2025-09-13 16:47:28 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 16:47:43 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 16:47:43 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/products'
+2025-09-13 16:47:43 | INFO | utils.logger:step:86 | 🔸 STEP: Opened products page
+2025-09-13 16:47:43 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying products page loaded
+2025-09-13 16:47:43 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:47:43 | INFO | utils.logger:step:86 | 🔸 STEP: Searching for product: top
+2025-09-13 16:47:43 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='search_product''
+2025-09-13 16:47:43 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='search_product' text='top''
+2025-09-13 16:47:43 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'id='submit_search''
+2025-09-13 16:47:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'id='submit_search''
+2025-09-13 16:47:46 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying 'Searched Products' title
+2025-09-13 16:47:46 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:47:46 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying products visible
+2025-09-13 16:47:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found elements on 'class name='productinfo' (count: 14)'
+2025-09-13 16:47:46 | INFO | utils.logger:step:86 | 🔸 STEP: Found 14 products on page
+2025-09-13 16:47:46 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying search results contain term: top
+2025-09-13 16:47:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found elements on 'xpath='//div[@class='productinfo text-center']//p' (count: 14)'
+2025-09-13 16:47:46 | INFO | utils.logger:step:86 | 🔸 STEP: Found matching product: Blue Top
+2025-09-13 16:47:46 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 16:47:49 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_product_search_basic - COMPLETED (21.06s)

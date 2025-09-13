@@ -1,0 +1,11 @@
+2025-09-13 17:27:54 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_cart_page_loads
+2025-09-13 17:27:54 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+e_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/view_cart'
+2025-09-13 17:28:05 | INFO | utils.logger:step:86 | 🔸 STEP: Opened cart page
+2025-09-13 17:28:05 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying cart page loaded
+2025-09-13 17:28:16 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'not visible'
+2025-09-13 17:28:16 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:28:16 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying cart page loaded
+2025-09-13 17:28:27 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'not visible'
+2025-09-13 17:28:27 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 17:28:29 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_cart_page_loads - COMPLETED (34.71s)

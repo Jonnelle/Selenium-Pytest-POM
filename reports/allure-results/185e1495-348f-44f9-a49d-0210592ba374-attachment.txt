@@ -1,0 +1,13 @@
+2025-09-13 15:54:08 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_products_page_loads
+2025-09-13 15:54:08 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+e_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/products'
+2025-09-13 15:54:24 | INFO | utils.logger:step:86 | 🔸 STEP: Opened products page
+2025-09-13 15:54:24 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying products page loaded
+2025-09-13 15:54:24 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 15:54:24 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying 'All Products' title
+2025-09-13 15:54:24 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 15:54:24 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying products visible
+2025-09-13 15:54:24 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found elements on 'class name='productinfo' (count: 34)'
+2025-09-13 15:54:24 | INFO | utils.logger:step:86 | 🔸 STEP: Found 34 products on page
+2025-09-13 15:54:24 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 15:54:26 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_products_page_loads - COMPLETED (17.42s)

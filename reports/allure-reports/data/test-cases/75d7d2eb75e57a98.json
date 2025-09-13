@@ -1,0 +1,217 @@
+{
+  "uid" : "75d7d2eb75e57a98",
+  "name" : "参数化登录测试",
+  "fullName" : "tests.test_user_authentication.TestUserAuthentication#test_login_parametrized",
+  "historyId" : "399150505fe67463a9cffd6e76d67f20",
+  "time" : {
+    "start" : 1757756953988,
+    "stop" : 1757756953988,
+    "duration" : 0
+  },
+  "description" : "使用不同的登录凭据进行参数化测试",
+  "descriptionHtml" : "<p>使用不同的登录凭据进行参数化测试</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 138\nCurrent browser version is 140.0.7339.81 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nStacktrace:\n\tGetHandleVerifier [0x0x7ff6c0f46f65+76917]\n\tGetHandleVerifier [0x0x7ff6c0f46fc0+77008]\n\t(No symbol) [0x0x7ff6c0cf9dea]\n\t(No symbol) [0x0x7ff6c0d3e1df]\n\t(No symbol) [0x0x7ff6c0d3d22b]\n\t(No symbol) [0x0x7ff6c0d36e2a]\n\t(No symbol) [0x0x7ff6c0d32675]\n\t(No symbol) [0x0x7ff6c0d85e9e]\n\t(No symbol) [0x0x7ff6c0d85630]\n\t(No symbol) [0x0x7ff6c0d78243]\n\t(No symbol) [0x0x7ff6c0d41431]\n\t(No symbol) [0x0x7ff6c0d421c3]\n\tGetHandleVerifier [0x0x7ff6c121d29d+3051437]\n\tGetHandleVerifier [0x0x7ff6c12178f3+3028483]\n\tGetHandleVerifier [0x0x7ff6c123588d+3151261]\n\tGetHandleVerifier [0x0x7ff6c0f6182e+185662]\n\tGetHandleVerifier [0x0x7ff6c0f696ef+218111]\n\tGetHandleVerifier [0x0x7ff6c0f4fae4+112628]\n\tGetHandleVerifier [0x0x7ff6c0f4fc99+113065]\n\tGetHandleVerifier [0x0x7ff6c0f36c68+10616]\n\tBaseThreadInitThunk [0x0x7ffc8ecfe8d7+23]\n\tRtlUserThreadStart [0x0x7ffc8f728d9c+44]",
+  "statusTrace" : "urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1007)\n\nThe above exception was the direct cause of the following exception:\n.venv1\\lib\\site-packages\\requests\\adapters.py:486: in send\n    resp = conn.urlopen(\n.venv1\\lib\\site-packages\\urllib3\\connectionpool.py:841: in urlopen\n    retries = retries.increment(\n.venv1\\lib\\site-packages\\urllib3\\util\\retry.py:519: in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\nE   urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Max retries exceeded with url: /chrome-for-testing/latest-patch-versions-per-build.json (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))\n\nDuring handling of the above exception, another exception occurred:\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\http.py:32: in get\n    resp = requests.get(\n.venv1\\lib\\site-packages\\requests\\api.py:73: in get\n    return request(\"get\", url, params=params, **kwargs)\n.venv1\\lib\\site-packages\\requests\\api.py:59: in request\n    return session.request(method=method, url=url, **kwargs)\n.venv1\\lib\\site-packages\\requests\\sessions.py:589: in request\n    resp = self.send(prep, **send_kwargs)\n.venv1\\lib\\site-packages\\requests\\sessions.py:703: in send\n    r = adapter.send(request, **kwargs)\n.venv1\\lib\\site-packages\\requests\\adapters.py:517: in send\n    raise SSLError(e, request=request)\nE   requests.exceptions.SSLError: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Max retries exceeded with url: /chrome-for-testing/latest-patch-versions-per-build.json (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))\n\nDuring handling of the above exception, another exception occurred:\nconftest.py:125: in _setup_chrome_driver\n    driver_path = ChromeDriverManager().install()\n.venv1\\lib\\site-packages\\webdriver_manager\\chrome.py:40: in install\n    driver_path = self._get_driver_binary_path(self.driver)\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\manager.py:35: in _get_driver_binary_path\n    binary_path = self._cache_manager.find_driver(driver)\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\driver_cache.py:105: in find_driver\n    driver_version = self.get_cache_key_driver_version(driver)\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\driver_cache.py:152: in get_cache_key_driver_version\n    return driver.get_driver_version_to_download()\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\driver.py:48: in get_driver_version_to_download\n    return self.get_latest_release_version()\n.venv1\\lib\\site-packages\\webdriver_manager\\drivers\\chrome.py:59: in get_latest_release_version\n    response = self._http_client.get(url)\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\http.py:35: in get\n    raise exceptions.ConnectionError(f\"Could not reach host. Are you offline?\")\nE   requests.exceptions.ConnectionError: Could not reach host. Are you offline?\n\nDuring handling of the above exception, another exception occurred:\nconftest.py:74: in browser_setup\n    driver = _setup_chrome_driver(headless, config)\nconftest.py:143: in _setup_chrome_driver\n    return webdriver.Chrome(service=service, options=options)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py:45: in __init__\n    super().__init__(\n.venv1\\lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py:56: in __init__\n    super().__init__(\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:208: in __init__\n    self.start_session(capabilities)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:292: in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:347: in execute\n    self.error_handler.check_response(response)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:229: in check_response\n    raise exception_class(message, screen, stacktrace)\nE   selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 138\nE   Current browser version is 140.0.7339.81 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nE   Stacktrace:\nE   \tGetHandleVerifier [0x0x7ff6c0f46f65+76917]\nE   \tGetHandleVerifier [0x0x7ff6c0f46fc0+77008]\nE   \t(No symbol) [0x0x7ff6c0cf9dea]\nE   \t(No symbol) [0x0x7ff6c0d3e1df]\nE   \t(No symbol) [0x0x7ff6c0d3d22b]\nE   \t(No symbol) [0x0x7ff6c0d36e2a]\nE   \t(No symbol) [0x0x7ff6c0d32675]\nE   \t(No symbol) [0x0x7ff6c0d85e9e]\nE   \t(No symbol) [0x0x7ff6c0d85630]\nE   \t(No symbol) [0x0x7ff6c0d78243]\nE   \t(No symbol) [0x0x7ff6c0d41431]\nE   \t(No symbol) [0x0x7ff6c0d421c3]\nE   \tGetHandleVerifier [0x0x7ff6c121d29d+3051437]\nE   \tGetHandleVerifier [0x0x7ff6c12178f3+3028483]\nE   \tGetHandleVerifier [0x0x7ff6c123588d+3151261]\nE   \tGetHandleVerifier [0x0x7ff6c0f6182e+185662]\nE   \tGetHandleVerifier [0x0x7ff6c0f696ef+218111]\nE   \tGetHandleVerifier [0x0x7ff6c0f4fae4+112628]\nE   \tGetHandleVerifier [0x0x7ff6c0f4fc99+113065]\nE   \tGetHandleVerifier [0x0x7ff6c0f36c68+10616]\nE   \tBaseThreadInitThunk [0x0x7ffc8ecfe8d7+23]\nE   \tRtlUserThreadStart [0x0x7ffc8f728d9c+44]",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757757063634,
+      "stop" : 1757757063812,
+      "duration" : 178
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication",
+    "time" : {
+      "start" : 1757756953988,
+      "stop" : 1757756953988,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757756567643,
+      "stop" : 1757756567755,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757756567755,
+      "stop" : 1757756567771,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757756953988,
+      "stop" : 1757757056396,
+      "duration" : 102408
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 138\nCurrent browser version is 140.0.7339.81 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nStacktrace:\n\tGetHandleVerifier [0x0x7ff6c0f46f65+76917]\n\tGetHandleVerifier [0x0x7ff6c0f46fc0+77008]\n\t(No symbol) [0x0x7ff6c0cf9dea]\n\t(No symbol) [0x0x7ff6c0d3e1df]\n\t(No symbol) [0x0x7ff6c0d3d22b]\n\t(No symbol) [0x0x7ff6c0d36e2a]\n\t(No symbol) [0x0x7ff6c0d32675]\n\t(No symbol) [0x0x7ff6c0d85e9e]\n\t(No symbol) [0x0x7ff6c0d85630]\n\t(No symbol) [0x0x7ff6c0d78243]\n\t(No symbol) [0x0x7ff6c0d41431]\n\t(No symbol) [0x0x7ff6c0d421c3]\n\tGetHandleVerifier [0x0x7ff6c121d29d+3051437]\n\tGetHandleVerifier [0x0x7ff6c12178f3+3028483]\n\tGetHandleVerifier [0x0x7ff6c123588d+3151261]\n\tGetHandleVerifier [0x0x7ff6c0f6182e+185662]\n\tGetHandleVerifier [0x0x7ff6c0f696ef+218111]\n\tGetHandleVerifier [0x0x7ff6c0f4fae4+112628]\n\tGetHandleVerifier [0x0x7ff6c0f4fc99+113065]\n\tGetHandleVerifier [0x0x7ff6c0f36c68+10616]\n\tBaseThreadInitThunk [0x0x7ffc8ecfe8d7+23]\n\tRtlUserThreadStart [0x0x7ffc8f728d9c+44]\n\n",
+    "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 53, in run_old_style_hookwrapper\n    return result.get_result()\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_result.py\", line 103, in get_result\n    raise exc.with_traceback(tb)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 121, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\_pytest\\fixtures.py\", line 1123, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\_pytest\\fixtures.py\", line 895, in call_fixture_func\n    fixture_result = next(generator)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\conftest.py\", line 74, in browser_setup\n    driver = _setup_chrome_driver(headless, config)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\conftest.py\", line 143, in _setup_chrome_driver\n    return webdriver.Chrome(service=service, options=options)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py\", line 45, in __init__\n    super().__init__(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py\", line 56, in __init__\n    super().__init__(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 208, in __init__\n    self.start_session(capabilities)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 292, in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 347, in execute\n    self.error_handler.check_response(response)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 229, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757756567771,
+      "stop" : 1757756567778,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "使用不同的登录凭据进行参数化测试",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 138\nCurrent browser version is 140.0.7339.81 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nStacktrace:\n\tGetHandleVerifier [0x0x7ff6c0f46f65+76917]\n\tGetHandleVerifier [0x0x7ff6c0f46fc0+77008]\n\t(No symbol) [0x0x7ff6c0cf9dea]\n\t(No symbol) [0x0x7ff6c0d3e1df]\n\t(No symbol) [0x0x7ff6c0d3d22b]\n\t(No symbol) [0x0x7ff6c0d36e2a]\n\t(No symbol) [0x0x7ff6c0d32675]\n\t(No symbol) [0x0x7ff6c0d85e9e]\n\t(No symbol) [0x0x7ff6c0d85630]\n\t(No symbol) [0x0x7ff6c0d78243]\n\t(No symbol) [0x0x7ff6c0d41431]\n\t(No symbol) [0x0x7ff6c0d421c3]\n\tGetHandleVerifier [0x0x7ff6c121d29d+3051437]\n\tGetHandleVerifier [0x0x7ff6c12178f3+3028483]\n\tGetHandleVerifier [0x0x7ff6c123588d+3151261]\n\tGetHandleVerifier [0x0x7ff6c0f6182e+185662]\n\tGetHandleVerifier [0x0x7ff6c0f696ef+218111]\n\tGetHandleVerifier [0x0x7ff6c0f4fae4+112628]\n\tGetHandleVerifier [0x0x7ff6c0f4fc99+113065]\n\tGetHandleVerifier [0x0x7ff6c0f36c68+10616]\n\tBaseThreadInitThunk [0x0x7ffc8ecfe8d7+23]\n\tRtlUserThreadStart [0x0x7ffc8f728d9c+44]",
+    "statusTrace" : "urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1007)\n\nThe above exception was the direct cause of the following exception:\n.venv1\\lib\\site-packages\\requests\\adapters.py:486: in send\n    resp = conn.urlopen(\n.venv1\\lib\\site-packages\\urllib3\\connectionpool.py:841: in urlopen\n    retries = retries.increment(\n.venv1\\lib\\site-packages\\urllib3\\util\\retry.py:519: in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\nE   urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Max retries exceeded with url: /chrome-for-testing/latest-patch-versions-per-build.json (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))\n\nDuring handling of the above exception, another exception occurred:\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\http.py:32: in get\n    resp = requests.get(\n.venv1\\lib\\site-packages\\requests\\api.py:73: in get\n    return request(\"get\", url, params=params, **kwargs)\n.venv1\\lib\\site-packages\\requests\\api.py:59: in request\n    return session.request(method=method, url=url, **kwargs)\n.venv1\\lib\\site-packages\\requests\\sessions.py:589: in request\n    resp = self.send(prep, **send_kwargs)\n.venv1\\lib\\site-packages\\requests\\sessions.py:703: in send\n    r = adapter.send(request, **kwargs)\n.venv1\\lib\\site-packages\\requests\\adapters.py:517: in send\n    raise SSLError(e, request=request)\nE   requests.exceptions.SSLError: HTTPSConnectionPool(host='googlechromelabs.github.io', port=443): Max retries exceeded with url: /chrome-for-testing/latest-patch-versions-per-build.json (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1007)')))\n\nDuring handling of the above exception, another exception occurred:\nconftest.py:125: in _setup_chrome_driver\n    driver_path = ChromeDriverManager().install()\n.venv1\\lib\\site-packages\\webdriver_manager\\chrome.py:40: in install\n    driver_path = self._get_driver_binary_path(self.driver)\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\manager.py:35: in _get_driver_binary_path\n    binary_path = self._cache_manager.find_driver(driver)\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\driver_cache.py:105: in find_driver\n    driver_version = self.get_cache_key_driver_version(driver)\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\driver_cache.py:152: in get_cache_key_driver_version\n    return driver.get_driver_version_to_download()\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\driver.py:48: in get_driver_version_to_download\n    return self.get_latest_release_version()\n.venv1\\lib\\site-packages\\webdriver_manager\\drivers\\chrome.py:59: in get_latest_release_version\n    response = self._http_client.get(url)\n.venv1\\lib\\site-packages\\webdriver_manager\\core\\http.py:35: in get\n    raise exceptions.ConnectionError(f\"Could not reach host. Are you offline?\")\nE   requests.exceptions.ConnectionError: Could not reach host. Are you offline?\n\nDuring handling of the above exception, another exception occurred:\nconftest.py:74: in browser_setup\n    driver = _setup_chrome_driver(headless, config)\nconftest.py:143: in _setup_chrome_driver\n    return webdriver.Chrome(service=service, options=options)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py:45: in __init__\n    super().__init__(\n.venv1\\lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py:56: in __init__\n    super().__init__(\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:208: in __init__\n    self.start_session(capabilities)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:292: in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:347: in execute\n    self.error_handler.check_response(response)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:229: in check_response\n    raise exception_class(message, screen, stacktrace)\nE   selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 138\nE   Current browser version is 140.0.7339.81 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nE   Stacktrace:\nE   \tGetHandleVerifier [0x0x7ff6c0f46f65+76917]\nE   \tGetHandleVerifier [0x0x7ff6c0f46fc0+77008]\nE   \t(No symbol) [0x0x7ff6c0cf9dea]\nE   \t(No symbol) [0x0x7ff6c0d3e1df]\nE   \t(No symbol) [0x0x7ff6c0d3d22b]\nE   \t(No symbol) [0x0x7ff6c0d36e2a]\nE   \t(No symbol) [0x0x7ff6c0d32675]\nE   \t(No symbol) [0x0x7ff6c0d85e9e]\nE   \t(No symbol) [0x0x7ff6c0d85630]\nE   \t(No symbol) [0x0x7ff6c0d78243]\nE   \t(No symbol) [0x0x7ff6c0d41431]\nE   \t(No symbol) [0x0x7ff6c0d421c3]\nE   \tGetHandleVerifier [0x0x7ff6c121d29d+3051437]\nE   \tGetHandleVerifier [0x0x7ff6c12178f3+3028483]\nE   \tGetHandleVerifier [0x0x7ff6c123588d+3151261]\nE   \tGetHandleVerifier [0x0x7ff6c0f6182e+185662]\nE   \tGetHandleVerifier [0x0x7ff6c0f696ef+218111]\nE   \tGetHandleVerifier [0x0x7ff6c0f4fae4+112628]\nE   \tGetHandleVerifier [0x0x7ff6c0f4fc99+113065]\nE   \tGetHandleVerifier [0x0x7ff6c0f36c68+10616]\nE   \tBaseThreadInitThunk [0x0x7ffc8ecfe8d7+23]\nE   \tRtlUserThreadStart [0x0x7ffc8f728d9c+44]",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "70cb2db0c265666a",
+      "name" : "log",
+      "source" : "70cb2db0c265666a.txt",
+      "type" : "text/plain",
+      "size" : 390
+    }, {
+      "uid" : "a972c5e69d8b991c",
+      "name" : "stdout",
+      "source" : "a972c5e69d8b991c.txt",
+      "type" : "text/plain",
+      "size" : 1580
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication::0",
+    "time" : {
+      "start" : 1757757056555,
+      "stop" : 1757757056555,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "用户认证功能"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAuthentication"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "2436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "''"
+  }, {
+    "name" : "expected",
+    "value" : "'failure'"
+  }, {
+    "name" : "password",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "login", "allure" ]
+  },
+  "source" : "75d7d2eb75e57a98.json",
+  "parameterValues" : [ "''", "'failure'", "''" ]
+}

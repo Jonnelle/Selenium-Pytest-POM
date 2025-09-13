@@ -1,0 +1,304 @@
+{
+  "uid" : "e227d5eadaced8c5",
+  "name" : "参数化登录测试",
+  "fullName" : "tests.test_user_authentication.TestUserAuthentication#test_login_parametrized",
+  "historyId" : "86bed4b62f436aa73f789e3f41a74cd8",
+  "time" : {
+    "start" : 1757756862471,
+    "stop" : 1757756875852,
+    "duration" : 13381
+  },
+  "description" : "使用不同的登录凭据进行参数化测试",
+  "descriptionHtml" : "<p>使用不同的登录凭据进行参数化测试</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 有效凭据登录应该成功，当前URL: https://automationexercise.com/login\nassert False",
+  "statusTrace" : "tests\\test_user_authentication.py:241: in test_login_parametrized\n    self.assert_with_screenshot(\ntests\\base_test.py:297: in assert_with_screenshot\n    assert condition, message\nE   AssertionError: 有效凭据登录应该成功，当前URL: https://automationexercise.com/login\nE   assert False",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757756567643,
+      "stop" : 1757756567755,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757756862238,
+      "stop" : 1757756862419,
+      "duration" : 181
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757756567755,
+      "stop" : 1757756567771,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757756857809,
+      "stop" : 1757756862238,
+      "duration" : 4429
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication",
+    "time" : {
+      "start" : 1757756857807,
+      "stop" : 1757756857808,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757756862419,
+      "stop" : 1757756862471,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757756567771,
+      "stop" : 1757756567778,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "使用不同的登录凭据进行参数化测试",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 有效凭据登录应该成功，当前URL: https://automationexercise.com/login\nassert False",
+    "statusTrace" : "tests\\test_user_authentication.py:241: in test_login_parametrized\n    self.assert_with_screenshot(\ntests\\base_test.py:297: in assert_with_screenshot\n    assert condition, message\nE   AssertionError: 有效凭据登录应该成功，当前URL: https://automationexercise.com/login\nE   assert False",
+    "steps" : [ {
+      "name" : "测试登录: testuser@example.com",
+      "time" : {
+        "start" : 1757756862471,
+        "stop" : 1757756875851,
+        "duration" : 13380
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: 有效凭据登录应该成功，当前URL: https://automationexercise.com/login\nassert False\n",
+      "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\test_user_authentication.py\", line 241, in test_login_parametrized\n    self.assert_with_screenshot(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\base_test.py\", line 297, in assert_with_screenshot\n    assert condition, message\n",
+      "steps" : [ {
+        "name" : "导航到登录页面",
+        "time" : {
+          "start" : 1757756862471,
+          "stop" : 1757756867989,
+          "duration" : 5518
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证登录页面页面加载",
+          "time" : {
+            "start" : 1757756867921,
+            "stop" : 1757756867989,
+            "duration" : 68
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "e4e9300b1a853115",
+        "name" : "Screenshot_assertion_failed",
+        "source" : "e4e9300b1a853115.png",
+        "type" : "image/png",
+        "size" : 47060
+      }, {
+        "uid" : "5eeec06eba6ba086",
+        "name" : "Page Source",
+        "source" : "5eeec06eba6ba086.html",
+        "type" : "text/html",
+        "size" : 24961
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "93b5e65a782092c8",
+      "name" : "截图_test_login_parametrized[testuser@example.com-Test123456-success]",
+      "source" : "93b5e65a782092c8.png",
+      "type" : "image/png",
+      "size" : 47060
+    }, {
+      "uid" : "aca8789b2815a3a2",
+      "name" : "stdout",
+      "source" : "aca8789b2815a3a2.txt",
+      "type" : "text/plain",
+      "size" : 2506
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757756875979,
+      "stop" : 1757756878267,
+      "duration" : 2288
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication::0",
+    "time" : {
+      "start" : 1757756878267,
+      "stop" : 1757756878270,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "用户认证功能"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAuthentication"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "2436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "'testuser@example.com'"
+  }, {
+    "name" : "expected",
+    "value" : "'success'"
+  }, {
+    "name" : "password",
+    "value" : "'Test123456'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "login", "allure" ]
+  },
+  "source" : "e227d5eadaced8c5.json",
+  "parameterValues" : [ "'testuser@example.com'", "'success'", "'Test123456'" ]
+}

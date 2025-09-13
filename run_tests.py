@@ -10,6 +10,10 @@ import subprocess
 import shutil
 from pathlib import Path
 
+import pytest
+import selenium
+import allure
+
 
 class TestRunner:
     """测试运行器"""
@@ -129,13 +133,13 @@ class TestRunner:
         try:
             # 生成报告
             cmd = ["allure", "generate", str(allure_results), "-o", str(allure_reports), "--clean"]
-            subprocess.run(cmd, check=True)
+            subprocess.run(cmd, check=True, shell=True)
             print("✅ Allure报告生成成功")
 
             if serve:
                 # 启动报告服务器
                 print("🌐 启动Allure报告服务器...")
-                subprocess.run(["allure", "serve", str(allure_results)])
+                subprocess.run(["allure", "serve", str(allure_results)], shell=True)
 
             return True
 
@@ -151,24 +155,34 @@ class TestRunner:
         print("🔍 检查依赖...")
 
         # 检查Python包
-        try:
-            import pytest
-            import selenium
-            import allure
+        python_packages_ok = True
+        missing_packages = []
+        for pkg in ["pytest", "selenium", "allure"]:
+            try:
+                __import__(pkg)
+            except ImportError:
+                missing_packages.append(pkg)
+                python_packages_ok = False
+
+        if python_packages_ok:
             print("✅ Python依赖检查通过")
-        except ImportError as e:
-            print(f"❌ 缺少Python依赖: {e}")
+        else:
+            print(f"❌ 缺少Python依赖: {', '.join(missing_packages)}")
             print("请运行: pip install -r requirements.txt")
-            return False
 
-        # 检查Allure
+        # 检查Allure命令行工具
         try:
-            subprocess.run(["allure", "--version"], capture_output=True, check=True)
-            print("✅ Allure已安装")
+            result = subprocess.run(
+                ["allure", "--version"], capture_output=True, text=True, check=True, shell=True
+            )
+            print(f"✅ Allure命令行已安装，版本: {result.stdout.strip()}")
+            allure_cli_ok = True
         except (subprocess.CalledProcessError, FileNotFoundError):
-            print("⚠️  Allure未安装，报告生成功能不可用")
+            print("⚠️  Allure命令行未安装，报告生成功能不可用")
+            allure_cli_ok = False
 
-        return True
+        return python_packages_ok and allure_cli_ok
+
 
     def run_data_setup(self):
         """设置测试数据"""

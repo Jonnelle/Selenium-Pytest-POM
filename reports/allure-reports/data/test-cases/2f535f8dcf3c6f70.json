@@ -1,0 +1,321 @@
+{
+  "uid" : "2f535f8dcf3c6f70",
+  "name" : "无效用户登录失败",
+  "fullName" : "tests.test_user_authentication.TestUserAuthentication#test_invalid_user_login",
+  "historyId" : "31c302b046c1e0441310a7a2a6bcfedd",
+  "time" : {
+    "start" : 1757756794615,
+    "stop" : 1757756807076,
+    "duration" : 12461
+  },
+  "description" : "测试无效凭据登录应该失败",
+  "descriptionHtml" : "<p>测试无效凭据登录应该失败</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757756794560,
+      "stop" : 1757756794615,
+      "duration" : 55
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757756794376,
+      "stop" : 1757756794560,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication",
+    "time" : {
+      "start" : 1757756790436,
+      "stop" : 1757756790436,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757756790436,
+      "stop" : 1757756794376,
+      "duration" : 3940
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757756567643,
+      "stop" : 1757756567755,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757756567755,
+      "stop" : 1757756567771,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757756567771,
+      "stop" : 1757756567778,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试无效凭据登录应该失败",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "导航到登录页面",
+      "time" : {
+        "start" : 1757756794615,
+        "stop" : 1757756800123,
+        "duration" : 5508
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "导航到登录页面",
+        "time" : {
+          "start" : 1757756794615,
+          "stop" : 1757756800123,
+          "duration" : 5508
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证登录页面页面加载",
+          "time" : {
+            "start" : 1757756800055,
+            "stop" : 1757756800123,
+            "duration" : 68
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "尝试使用无效凭据登录",
+      "time" : {
+        "start" : 1757756800123,
+        "stop" : 1757756805010,
+        "duration" : 4887
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证错误消息",
+      "time" : {
+        "start" : 1757756805010,
+        "stop" : 1757756807067,
+        "duration" : 2057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证仍在登录页面",
+      "time" : {
+        "start" : 1757756807067,
+        "stop" : 1757756807075,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "89ef2b5d0ee922e",
+      "name" : "stdout",
+      "source" : "89ef2b5d0ee922e.txt",
+      "type" : "text/plain",
+      "size" : 2463
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication::0",
+    "time" : {
+      "start" : 1757756826313,
+      "stop" : 1757756826313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757756807078,
+      "stop" : 1757756826313,
+      "duration" : 19235
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "用户认证功能"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAuthentication"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "2436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regression", "login", "allure" ]
+  },
+  "source" : "2f535f8dcf3c6f70.json",
+  "parameterValues" : [ ]
+}

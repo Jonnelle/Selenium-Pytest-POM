@@ -113,6 +113,7 @@ python run_tests.py --test-type cart
 python run_tests.py --test-type contact
 ```
 
+
 #### 📊 直接使用Pytest
 
 ```
@@ -128,6 +129,12 @@ pytest -n 4 -m regression
 # 生成报告
 pytest --alluredir=reports/allure-results --html=reports/html/report.html
 ```
+
+## DEMO
+
+`python run_tests.py --test-type login --generate-report --serve-report`
+![allure-1](.\imgs\allure-1.png "allure-1")
+
 
 ## 🧪 测试用例覆盖
 

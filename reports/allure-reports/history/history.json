@@ -1,0 +1,406 @@
+{
+  "86bed4b62f436aa73f789e3f41a74cd8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cc26a2d4ba9af0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 有效凭据登录应该成功，当前URL: https://automationexercise.com/login\nassert False",
+      "time" : {
+        "start" : 1757756923605,
+        "stop" : 1757756934440,
+        "duration" : 10835
+      }
+    } ]
+  },
+  "f099702f173b31e74d9818a379059b6f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59a358fde5e9c5aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757756941173,
+        "stop" : 1757756951604,
+        "duration" : 10431
+      }
+    } ]
+  },
+  "0358e04d9fa787412b3c414fee46da06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "386f1714aa667607",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757756625613,
+        "stop" : 1757756635025,
+        "duration" : 9412
+      }
+    } ]
+  },
+  "046d5fc4db15d4f3441a52fe936e97c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8b5384189d21f05",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 登录应该成功并跳转，但仍在登录页面: https://automationexercise.com/login\nassert False",
+      "time" : {
+        "start" : 1757756727952,
+        "stop" : 1757756741726,
+        "duration" : 13774
+      }
+    } ]
+  },
+  "ff4ae0294b62da8c736002a3148120f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3280c9bc3762fa26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757757099400,
+        "stop" : 1757757136414,
+        "duration" : 37014
+      }
+    } ]
+  },
+  "8ba4c8ab92c4bfd45168dfc7518d1521" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2cadbe2a82e6b90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757757079505,
+        "stop" : 1757757091670,
+        "duration" : 12165
+      }
+    } ]
+  },
+  "4604803f97e35c43e5fba0bb83a1dfaa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbd4446afafdc098",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757755682160,
+        "stop" : 1757755707054,
+        "duration" : 24894
+      }
+    } ]
+  },
+  "06ac9c4c9ffebe5c40f4520f0f4e8108" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ac95bf8a708bf69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757755773688,
+        "stop" : 1757755783124,
+        "duration" : 9436
+      }
+    } ]
+  },
+  "2d243f0af14b5f704e0ad6f3cefd5f65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6942a202c6f7559f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757755833697,
+        "stop" : 1757755838538,
+        "duration" : 4841
+      }
+    } ]
+  },
+  "661888d7fadf04125a110298178ac943" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3c8c6c448e2d997",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757755845523,
+        "stop" : 1757755856771,
+        "duration" : 11248
+      }
+    } ]
+  },
+  "bbb28ae732ff3d8468339a63474c4426" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f3d4c6c35a58eb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757756573388,
+        "stop" : 1757756597876,
+        "duration" : 24488
+      }
+    } ]
+  },
+  "4e0a07754b10af0a7b0f47750b2f4db6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e1994de2e0bc3b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757756830952,
+        "stop" : 1757756842423,
+        "duration" : 11471
+      }
+    } ]
+  },
+  "3844e2428144b241c43263c0b17b375d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "20d403da45cef3ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757755791371,
+        "stop" : 1757755802618,
+        "duration" : 11247
+      }
+    } ]
+  },
+  "500f8d9e625c4713ddd99ee7a1906515" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd48f2181d997811",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757755761605,
+        "stop" : 1757755767232,
+        "duration" : 5627
+      }
+    } ]
+  },
+  "d2a9ad1703ecf7a0235d2551774200b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bcbe3919c8f8a065",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757756604625,
+        "stop" : 1757756618431,
+        "duration" : 13806
+      }
+    } ]
+  },
+  "31c302b046c1e0441310a7a2a6bcfedd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f535f8dcf3c6f70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757756794615,
+        "stop" : 1757756807076,
+        "duration" : 12461
+      }
+    } ]
+  },
+  "7952dca04a6165296335337baae67143" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f75b4fe1c3d00377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757756849588,
+        "stop" : 1757756855545,
+        "duration" : 5957
+      }
+    } ]
+  },
+  "399150505fe67463a9cffd6e76d67f20" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55cb829fc011dfa0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757757063871,
+        "stop" : 1757757072965,
+        "duration" : 9094
+      }
+    } ]
+  },
+  "12bfff1a880d27805123d30f99421dd5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97cecaac64ede7c8",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'HomePage' object has no attribute 'add_product_to_cart_by_index'",
+      "time" : {
+        "start" : 1757755749121,
+        "stop" : 1757755754896,
+        "duration" : 5775
+      }
+    } ]
+  },
+  "d6af4567a03557adaca50f8adc4c26c5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d2b7758073d98fb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 应该跳转到购物车页面，当前URL: https://automationexercise.com/products\nassert False",
+      "time" : {
+        "start" : 1757755948764,
+        "stop" : 1757755982662,
+        "duration" : 33898
+      }
+    } ]
+  },
+  "676305d5ee0fb79746a8c91f2c0a2a35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e447fe1dc7948be",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749085714,
+        "stop" : 1757749085714,
+        "duration" : 0
+      }
+    } ]
+  }
+}

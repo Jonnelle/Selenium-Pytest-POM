@@ -1,0 +1,30 @@
+2025-09-13 16:45:17 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_add_product_from_home
+2025-09-13 16:45:17 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 16:45:34 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 16:45:34 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com'
+2025-09-13 16:45:34 | INFO | utils.logger:step:86 | 🔸 STEP: Opened home page
+2025-09-13 16:45:34 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying home page loaded
+2025-09-13 16:45:34 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:45:34 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:45:34 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found elements on 'xpath='//div[@class='productinfo text-center']//p' (count: 40)'
+2025-09-13 16:45:35 | INFO | utils.logger:step:86 | 🔸 STEP: Got product names: ['Blue Top', 'Men Tshirt', 'Sleeveless Dress', 'Stylish Dress', 'Winter Top', 'Summer White Top', 'Madame Top For Women', 'Fancy Green Top', 'Sleeves Printed Top - White', 'Half Sleeves Top Schiffli Detailing - Pink', 'Frozen Tops For Kids', 'Full Sleeves Top Cherry - Pink', 'Printed Off Shoulder Top - White', 'Sleeves Top and Short - Blue & Pink', 'Little Girls Mr. Panda Shirt', 'Sleeveless Unicorn Patch Gown - Pink', 'Cotton Mull Embroidered Dress', 'Blue Cotton Indie Mickey Dress', 'Long Maxi Tulle Fancy Dress Up Outfits -Pink', 'Sleeveless Unicorn Print Fit & Flare Net Dress - Multi', 'Colour Blocked Shirt – Sky Blue', 'Pure Cotton V-Neck T-Shirt', 'Green Side Placket Detail T-Shirt', 'Premium Polo T-Shirts', 'Pure Cotton Neon Green Tshirt', 'Soft Stretch Jeans', 'Regular Fit Straight Jeans', 'Grunt Blue Slim Fit Jeans', 'Rose Pink Embroidered Maxi Dress', 'Cotton Silk Hand Block Print Saree', 'Rust Red Linen Saree', 'Beautiful Peacock Blue Cotton Linen Saree', 'Lace Top For Women', 'GRAPHIC DESIGN MEN T SHIRT - BLUE', '', '', '', 'Stylish Dress', 'Winter Top', 'Summer White Top']
+2025-09-13 16:45:35 | INFO | utils.logger:step:86 | 🔸 STEP: 将要添加的产品: Blue Top
+2025-09-13 16:45:36 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 16:45:39 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_add_product_from_home - COMPLETED (22.04s)
+2025-09-13 16:45:42 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_add_product_from_home
+2025-09-13 16:45:42 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 16:45:58 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 16:46:01 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_add_product_from_home - COMPLETED (18.23s)
+2025-09-13 16:46:04 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_add_product_from_home
+2025-09-13 16:46:04 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 16:46:16 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 16:46:16 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com'
+2025-09-13 16:46:16 | INFO | utils.logger:step:86 | 🔸 STEP: Opened home page
+2025-09-13 16:46:16 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying home page loaded
+2025-09-13 16:46:16 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:46:16 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:46:16 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found elements on 'xpath='//div[@class='productinfo text-center']//p' (count: 40)'
+2025-09-13 16:46:16 | INFO | utils.logger:step:86 | 🔸 STEP: Got product names: ['Blue Top', 'Men Tshirt', 'Sleeveless Dress', 'Stylish Dress', 'Winter Top', 'Summer White Top', 'Madame Top For Women', 'Fancy Green Top', 'Sleeves Printed Top - White', 'Half Sleeves Top Schiffli Detailing - Pink', 'Frozen Tops For Kids', 'Full Sleeves Top Cherry - Pink', 'Printed Off Shoulder Top - White', 'Sleeves Top and Short - Blue & Pink', 'Little Girls Mr. Panda Shirt', 'Sleeveless Unicorn Patch Gown - Pink', 'Cotton Mull Embroidered Dress', 'Blue Cotton Indie Mickey Dress', 'Long Maxi Tulle Fancy Dress Up Outfits -Pink', 'Sleeveless Unicorn Print Fit & Flare Net Dress - Multi', 'Colour Blocked Shirt – Sky Blue', 'Pure Cotton V-Neck T-Shirt', 'Green Side Placket Detail T-Shirt', 'Premium Polo T-Shirts', 'Pure Cotton Neon Green Tshirt', 'Soft Stretch Jeans', 'Regular Fit Straight Jeans', 'Grunt Blue Slim Fit Jeans', 'Rose Pink Embroidered Maxi Dress', 'Cotton Silk Hand Block Print Saree', 'Rust Red Linen Saree', 'Beautiful Peacock Blue Cotton Linen Saree', 'Lace Top For Women', 'GRAPHIC DESIGN MEN T SHIRT - BLUE', '', '', '', 'Stylish Dress', 'Winter Top', 'Summer White Top']
+2025-09-13 16:46:16 | INFO | utils.logger:step:86 | 🔸 STEP: 将要添加的产品: Blue Top
+2025-09-13 16:46:16 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 16:46:19 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_add_product_from_home - COMPLETED (14.79s)

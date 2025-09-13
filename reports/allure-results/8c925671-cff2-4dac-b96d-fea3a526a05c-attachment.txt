@@ -1,0 +1,6 @@
+2025-09-13 15:38:58 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_submit_contact_form_success
+2025-09-13 15:38:58 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 15:38:58 | ERROR | utils.logger:error:74 | 浏览器设置失败: local variable 'os' referenced before assignment
+2025-09-13 15:38:58 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_submit_contact_form_success - COMPLETED (0.02s)
+rm_success
+2025-09-13 15:39:01 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_submit_contact_form_success - COMPLETED (0.04s)

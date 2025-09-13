@@ -1,0 +1,489 @@
+{
+  "uid" : "3280c9bc3762fa26",
+  "name" : "注册后立即登录",
+  "fullName" : "tests.test_user_authentication.TestUserAuthentication#test_registration_and_login_flow",
+  "historyId" : "ff4ae0294b62da8c736002a3148120f8",
+  "time" : {
+    "start" : 1757757099400,
+    "stop" : 1757757136414,
+    "duration" : 37014
+  },
+  "description" : "测试注册新用户后立即登录的完整流程",
+  "descriptionHtml" : "<p>测试注册新用户后立即登录的完整流程</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication",
+    "time" : {
+      "start" : 1757757094405,
+      "stop" : 1757757094405,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757756567643,
+      "stop" : 1757756567755,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757757094405,
+      "stop" : 1757757099122,
+      "duration" : 4717
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757756567755,
+      "stop" : 1757756567771,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757757099122,
+      "stop" : 1757757099338,
+      "duration" : 216
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757757099338,
+      "stop" : 1757757099400,
+      "duration" : 62
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757756567771,
+      "stop" : 1757756567778,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试注册新用户后立即登录的完整流程",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "执行用户注册",
+      "time" : {
+        "start" : 1757757099400,
+        "stop" : 1757757116983,
+        "duration" : 17583
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "注册新用户: 芳 杨",
+        "time" : {
+          "start" : 1757757099400,
+          "stop" : 1757757116982,
+          "duration" : 17582
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "导航到登录页面",
+          "time" : {
+            "start" : 1757757099400,
+            "stop" : 1757757104794,
+            "duration" : 5394
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "验证登录页面页面加载",
+            "time" : {
+              "start" : 1757757104733,
+              "stop" : 1757757104794,
+              "duration" : 61
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "hasContent" : false,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "验证注册详情页面页面加载",
+          "time" : {
+            "start" : 1757757111740,
+            "stop" : 1757757111773,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "验证账户创建成功页面页面加载",
+          "time" : {
+            "start" : 1757757116941,
+            "stop" : 1757757116982,
+            "duration" : 41
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "注册完成后继续",
+      "time" : {
+        "start" : 1757757116983,
+        "stop" : 1757757121969,
+        "duration" : 4986
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证自动登录",
+      "time" : {
+        "start" : 1757757121969,
+        "stop" : 1757757121996,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "模拟登出（清除会话）",
+      "time" : {
+        "start" : 1757757121996,
+        "stop" : 1757757123973,
+        "duration" : 1977
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "导航到登录页面",
+        "time" : {
+          "start" : 1757757122058,
+          "stop" : 1757757123973,
+          "duration" : 1915
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证登录页面页面加载",
+          "time" : {
+            "start" : 1757757123919,
+            "stop" : 1757757123973,
+            "duration" : 54
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "使用注册的凭据重新登录",
+      "time" : {
+        "start" : 1757757123973,
+        "stop" : 1757757136413,
+        "duration" : 12440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4eec8c000e9478e6",
+      "name" : "stdout",
+      "source" : "4eec8c000e9478e6.txt",
+      "type" : "text/plain",
+      "size" : 10296
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 12,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication::0",
+    "time" : {
+      "start" : 1757757138784,
+      "stop" : 1757757138785,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757757136416,
+      "stop" : 1757757138783,
+      "duration" : 2367
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "完整流程"
+  }, {
+    "name" : "feature",
+    "value" : "用户认证功能"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAuthentication"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "2436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "b3db648de4f90841",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757756098964,
+        "stop" : 1757756131539,
+        "duration" : 32575
+      }
+    }, {
+      "uid" : "e03d941d3f67990d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757753520361,
+        "stop" : 1757753554551,
+        "duration" : 34190
+      }
+    }, {
+      "uid" : "561822508b641b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757750352746,
+        "stop" : 1757750382328,
+        "duration" : 29582
+      }
+    }, {
+      "uid" : "afbfafe2ef1b4e06",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749187322,
+        "stop" : 1757749187322,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b94925f204baee8a",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749184291,
+        "stop" : 1757749184291,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f8b043ccf06d6440",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749181255,
+        "stop" : 1757749181255,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3ab2ef618719a537",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748851641,
+        "stop" : 1757748851641,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2b0f4ffea3690f28",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748848574,
+        "stop" : 1757748848574,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ef18dfc4334f7db2",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748845529,
+        "stop" : 1757748845529,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke", "login", "allure" ]
+  },
+  "source" : "3280c9bc3762fa26.json",
+  "parameterValues" : [ ]
+}

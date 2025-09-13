@@ -1,0 +1,406 @@
+{
+  "uid" : "6942a202c6f7559f",
+  "name" : "验证产品页面加载",
+  "fullName" : "tests.test_products.TestProducts#test_products_page_loads",
+  "historyId" : "2d243f0af14b5f704e0ad6f3cefd5f65",
+  "time" : {
+    "start" : 1757755833697,
+    "stop" : 1757755838538,
+    "duration" : 4841
+  },
+  "description" : "测试产品页面能够正确加载并显示产品列表",
+  "descriptionHtml" : "<p>测试产品页面能够正确加载并显示产品列表</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757755829280,
+      "stop" : 1757755833470,
+      "duration" : 4190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757755674723,
+      "stop" : 1757755674739,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestProducts",
+    "time" : {
+      "start" : 1757755829280,
+      "stop" : 1757755829280,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757755674615,
+      "stop" : 1757755674723,
+      "duration" : 108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757755674739,
+      "stop" : 1757755674739,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757755833648,
+      "stop" : 1757755833697,
+      "duration" : 49
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757755833470,
+      "stop" : 1757755833647,
+      "duration" : 177
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试产品页面能够正确加载并显示产品列表",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "导航到产品页面",
+      "time" : {
+        "start" : 1757755833697,
+        "stop" : 1757755838484,
+        "duration" : 4787
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "导航到产品页面",
+        "time" : {
+          "start" : 1757755833697,
+          "stop" : 1757755838484,
+          "duration" : 4787
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证产品页面页面加载",
+          "time" : {
+            "start" : 1757755838448,
+            "stop" : 1757755838484,
+            "duration" : 36
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证'All Products'标题",
+      "time" : {
+        "start" : 1757755838484,
+        "stop" : 1757755838506,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证产品列表",
+      "time" : {
+        "start" : 1757755838506,
+        "stop" : 1757755838525,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证产品数量",
+      "time" : {
+        "start" : 1757755838525,
+        "stop" : 1757755838537,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6077a59d3f0e05",
+      "name" : "log",
+      "source" : "6077a59d3f0e05.txt",
+      "type" : "text/plain",
+      "size" : 390
+    }, {
+      "uid" : "464593e4de5b6f78",
+      "name" : "stdout",
+      "source" : "464593e4de5b6f78.txt",
+      "type" : "text/plain",
+      "size" : 2834
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757755838558,
+      "stop" : 1757755840833,
+      "duration" : 2275
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestProducts::0",
+    "time" : {
+      "start" : 1757755840833,
+      "stop" : 1757755840833,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "feature",
+    "value" : "产品功能"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "产品页面"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_products"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProducts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "18852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "2198d4544b3f68c7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 138\nCurrent browser version is 140.0.7339.81 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\nStacktrace:\n\tGetHandleVerifier [0x0x7ff6c0f46f65+76917]\n\tGetHandleVerifier [0x0x7ff6c0f46fc0+77008]\n\t(No symbol) [0x0x7ff6c0cf9dea]\n\t(No symbol) [0x0x7ff6c0d3e1df]\n\t(No symbol) [0x0x7ff6c0d3d22b]\n\t(No symbol) [0x0x7ff6c0d36e2a]\n\t(No symbol) [0x0x7ff6c0d32675]\n\t(No symbol) [0x0x7ff6c0d85e9e]\n\t(No symbol) [0x0x7ff6c0d85630]\n\t(No symbol) [0x0x7ff6c0d78243]\n\t(No symbol) [0x0x7ff6c0d41431]\n\t(No symbol) [0x0x7ff6c0d421c3]\n\tGetHandleVerifier [0x0x7ff6c121d29d+3051437]\n\tGetHandleVerifier [0x0x7ff6c12178f3+3028483]\n\tGetHandleVerifier [0x0x7ff6c123588d+3151261]\n\tGetHandleVerifier [0x0x7ff6c0f6182e+185662]\n\tGetHandleVerifier [0x0x7ff6c0f696ef+218111]\n\tGetHandleVerifier [0x0x7ff6c0f4fae4+112628]\n\tGetHandleVerifier [0x0x7ff6c0f4fc99+113065]\n\tGetHandleVerifier [0x0x7ff6c0f36c68+10616]\n\tBaseThreadInitThunk [0x0x7ffc8ecfe8d7+23]\n\tRtlUserThreadStart [0x0x7ffc8f728d9c+44]",
+      "time" : {
+        "start" : 1757755804950,
+        "stop" : 1757755804950,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de17afe1b984d800",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757753237462,
+        "stop" : 1757753245919,
+        "duration" : 8457
+      }
+    }, {
+      "uid" : "b3bdeddab772cdb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757750055267,
+        "stop" : 1757750064106,
+        "duration" : 8839
+      }
+    }, {
+      "uid" : "a484dcc9c7138945",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749156603,
+        "stop" : 1757749156603,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "33af96945952828a",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749153548,
+        "stop" : 1757749153548,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1762e7c0e0a9da8",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749150507,
+        "stop" : 1757749150507,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "85edbe9060b90044",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748820914,
+        "stop" : 1757748820914,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ffe1a699b1d0c2e1",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748817837,
+        "stop" : 1757748817837,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f9f228eb5b6101bd",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748814781,
+        "stop" : 1757748814781,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "smoke", "allure" ]
+  },
+  "source" : "6942a202c6f7559f.json",
+  "parameterValues" : [ ]
+}

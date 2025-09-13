@@ -1,0 +1,28 @@
+2025-09-13 16:46:36 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_submit_contact_form_success
+2025-09-13 16:46:36 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+:46:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 16:46:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/contact_us'
+2025-09-13 16:46:46 | INFO | utils.logger:step:86 | 🔸 STEP: Opened contact us page
+2025-09-13 16:46:46 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying contact us page loaded
+2025-09-13 16:46:46 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 16:46:46 | INFO | utils.logger:step:86 | 🔸 STEP: Filling contact form - Name: 马斌, Email: moralescourtney@example.org
+2025-09-13 16:46:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='name']''
+2025-09-13 16:46:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='name']' text='马斌''
+2025-09-13 16:46:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='email']''
+2025-09-13 16:46:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='email']' text='moralescourtney@example.org''
+2025-09-13 16:46:46 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='subject']''
+2025-09-13 16:46:47 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='subject']' text='Chair sell feeling tough technology.''
+2025-09-13 16:46:47 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//textarea[@data-qa='message']''
+2025-09-13 16:46:48 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//textarea[@data-qa='message']' text='Environmental claim best federal. Low model early together story choose law. Character deep cover third include collection change. Clearly many home interest entire return.
+Physical popular everything eight real interesting. Listen ever best support.
+Remain modern reduce. Follow player drug coach occur. Win college truth.
+Each friend hospital.
+Foot ready too speech. Successful contain security show worker own seven possible. By news as fact kind.''
+2025-09-13 16:46:48 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking submit button
+2025-09-13 16:46:48 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'xpath='//input[@data-qa='submit-button']''
+2025-09-13 16:46:48 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'xpath='//input[@data-qa='submit-button']''
+2025-09-13 16:46:48 | INFO | utils.logger:step:86 | 🔸 STEP: Handling JavaScript alert
+2025-09-13 16:46:48 | INFO | utils.logger:step:86 | 🔸 STEP: Alert accepted
+2025-09-13 16:46:51 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying success message
+2025-09-13 16:46:51 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 16:46:53 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_submit_contact_form_success - COMPLETED (17.56s)

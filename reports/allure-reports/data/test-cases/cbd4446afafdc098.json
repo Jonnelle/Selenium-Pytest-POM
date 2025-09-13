@@ -1,0 +1,379 @@
+{
+  "uid" : "cbd4446afafdc098",
+  "name" : "验证购物车页面加载",
+  "fullName" : "tests.test_cart.TestCart#test_cart_page_loads",
+  "historyId" : "4604803f97e35c43e5fba0bb83a1dfaa",
+  "time" : {
+    "start" : 1757755682160,
+    "stop" : 1757755707054,
+    "duration" : 24894
+  },
+  "description" : "测试购物车页面能够正确加载",
+  "descriptionHtml" : "<p>测试购物车页面能够正确加载</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757755674739,
+      "stop" : 1757755681105,
+      "duration" : 6366
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757755674723,
+      "stop" : 1757755674739,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757755681105,
+      "stop" : 1757755682103,
+      "duration" : 998
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestCart",
+    "time" : {
+      "start" : 1757755674739,
+      "stop" : 1757755674739,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757755682103,
+      "stop" : 1757755682160,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757755674615,
+      "stop" : 1757755674723,
+      "duration" : 108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757755674739,
+      "stop" : 1757755674739,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试购物车页面能够正确加载",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "导航到购物车页面",
+      "time" : {
+        "start" : 1757755682160,
+        "stop" : 1757755696466,
+        "duration" : 14306
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "导航到购物车页面",
+        "time" : {
+          "start" : 1757755682160,
+          "stop" : 1757755696466,
+          "duration" : 14306
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证购物车页面页面加载",
+          "time" : {
+            "start" : 1757755685865,
+            "stop" : 1757755696466,
+            "duration" : 10601
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证页面加载",
+      "time" : {
+        "start" : 1757755696466,
+        "stop" : 1757755707054,
+        "duration" : 10588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "62dc3d152dcd8e07",
+      "name" : "stdout",
+      "source" : "62dc3d152dcd8e07.txt",
+      "type" : "text/plain",
+      "size" : 1152
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757755707070,
+      "stop" : 1757755709426,
+      "duration" : 2356
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestCart::0",
+    "time" : {
+      "start" : 1757755709446,
+      "stop" : 1757755709446,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "story",
+    "value" : "购物车页面"
+  }, {
+    "name" : "tag",
+    "value" : "cart"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "18852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "4ae5ce4db7ccc59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757753090948,
+        "stop" : 1757753115634,
+        "duration" : 24686
+      }
+    }, {
+      "uid" : "eadb016b34aa2cbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757749902346,
+        "stop" : 1757749929897,
+        "duration" : 27551
+      }
+    }, {
+      "uid" : "7a1486b17b943f4b",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))",
+      "time" : {
+        "start" : 1757749832823,
+        "stop" : 1757749851896,
+        "duration" : 19073
+      }
+    }, {
+      "uid" : "76e7e0e85167043c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 购物车页面加载失败\nassert False\n +  where False = <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>>()\n +    where <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>> = <tests.test_cart.TestCart object at 0x0000029D79865570>.navigate_to_cart",
+      "time" : {
+        "start" : 1757749794706,
+        "stop" : 1757749820470,
+        "duration" : 25764
+      }
+    }, {
+      "uid" : "e14cab5860e8467d",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749125892,
+        "stop" : 1757749125892,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f45fb26321d5c202",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749122835,
+        "stop" : 1757749122835,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "21a9eca24ac0d1da",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749119446,
+        "stop" : 1757749119446,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "af110ec107e68caf",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748790052,
+        "stop" : 1757748790052,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7730bb597558e0fc",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748787005,
+        "stop" : 1757748787005,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b34ea6703a2d9e79",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748783596,
+        "stop" : 1757748783596,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke", "allure", "cart" ]
+  },
+  "source" : "cbd4446afafdc098.json",
+  "parameterValues" : [ ]
+}

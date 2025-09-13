@@ -1,0 +1,316 @@
+{
+  "uid" : "702b08cf808547b5",
+  "name" : "从首页添加商品到购物车",
+  "fullName" : "tests.test_cart.TestCart#test_add_product_from_home",
+  "historyId" : "12bfff1a880d27805123d30f99421dd5",
+  "time" : {
+    "start" : 1757753149704,
+    "stop" : 1757753158768,
+    "duration" : 9064
+  },
+  "description" : "测试从首页添加商品到购物车的功能",
+  "descriptionHtml" : "<p>测试从首页添加商品到购物车的功能</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'HomePage' object has no attribute 'add_product_to_cart_by_index'",
+  "statusTrace" : "tests\\test_cart.py:74: in test_add_product_from_home\n    self.home_page.add_product_to_cart_by_index(0)\nE   AttributeError: 'HomePage' object has no attribute 'add_product_to_cart_by_index'",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757753083796,
+      "stop" : 1757753083919,
+      "duration" : 123
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757753149432,
+      "stop" : 1757753149633,
+      "duration" : 201
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757753083920,
+      "stop" : 1757753083928,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757753142981,
+      "stop" : 1757753149430,
+      "duration" : 6449
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestCart",
+    "time" : {
+      "start" : 1757753142981,
+      "stop" : 1757753142981,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757753149634,
+      "stop" : 1757753149703,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757753083928,
+      "stop" : 1757753083941,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试从首页添加商品到购物车的功能",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'HomePage' object has no attribute 'add_product_to_cart_by_index'",
+    "statusTrace" : "tests\\test_cart.py:74: in test_add_product_from_home\n    self.home_page.add_product_to_cart_by_index(0)\nE   AttributeError: 'HomePage' object has no attribute 'add_product_to_cart_by_index'",
+    "steps" : [ {
+      "name" : "导航到首页",
+      "time" : {
+        "start" : 1757753149705,
+        "stop" : 1757753158315,
+        "duration" : 8610
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "导航到首页",
+        "time" : {
+          "start" : 1757753149705,
+          "stop" : 1757753158315,
+          "duration" : 8610
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证首页页面加载",
+          "time" : {
+            "start" : 1757753158245,
+            "stop" : 1757753158315,
+            "duration" : 70
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "获取第一个产品名称",
+      "time" : {
+        "start" : 1757753158315,
+        "stop" : 1757753158760,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "添加第一个产品到购物车",
+      "time" : {
+        "start" : 1757753158760,
+        "stop" : 1757753158760,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'HomePage' object has no attribute 'add_product_to_cart_by_index'\n",
+      "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\test_cart.py\", line 74, in test_add_product_from_home\n    self.home_page.add_product_to_cart_by_index(0)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5619b9580e49b1cb",
+      "name" : "截图_test_add_product_from_home",
+      "source" : "5619b9580e49b1cb.png",
+      "type" : "image/png",
+      "size" : 470730
+    }, {
+      "uid" : "d11575bd60a7e410",
+      "name" : "stdout",
+      "source" : "d11575bd60a7e410.txt",
+      "type" : "text/plain",
+      "size" : 2898
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757753158979,
+      "stop" : 1757753161209,
+      "duration" : 2230
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestCart::0",
+    "time" : {
+      "start" : 1757753161211,
+      "stop" : 1757753161212,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "story",
+    "value" : "添加商品"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "cart"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "20344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke", "allure", "cart" ]
+  },
+  "source" : "702b08cf808547b5.json",
+  "parameterValues" : [ ]
+}

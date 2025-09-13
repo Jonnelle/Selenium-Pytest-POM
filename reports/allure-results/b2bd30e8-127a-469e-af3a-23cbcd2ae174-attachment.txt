@@ -1,0 +1,83 @@
+2025-09-13 17:42:47 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_user_registration_success
+2025-09-13 17:42:47 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 17:42:53 | INFO | utils.logger:data_operation:129 | 📊 Data Operation: Generated test user data (User)
+2025-09-13 17:43:01 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 17:43:01 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/login'
+2025-09-13 17:43:01 | INFO | utils.logger:step:86 | 🔸 STEP: Opened login page
+2025-09-13 17:43:01 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying login page loaded
+2025-09-13 17:43:01 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:43:01 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:43:01 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying signup section visible
+2025-09-13 17:43:01 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:43:01 | INFO | utils.logger:step:86 | 🔸 STEP: Signing up new user: 晨 Armstrong
+2025-09-13 17:43:01 | INFO | utils.logger:step:86 | 🔸 STEP: Filling signup form with name: 晨 Armstrong, email: liaoyang@example.com
+2025-09-13 17:43:01 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='signup-name']''
+2025-09-13 17:43:01 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='signup-name']' text='晨 Armstrong''
+2025-09-13 17:43:01 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='signup-email']''
+2025-09-13 17:43:02 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='signup-email']' text='liaoyang@example.com''
+2025-09-13 17:43:02 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking signup button
+2025-09-13 17:43:02 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'xpath='//button[@data-qa='signup-button']''
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'xpath='//button[@data-qa='signup-button']''
+2025-09-13 17:43:06 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying signup page loaded
+2025-09-13 17:43:06 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:43:06 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying name and email prefilled
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='name''
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Got attribute on 'id='name' value='晨 Armstrong''
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='email''
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Got attribute on 'id='email' value='liaoyang@example.com''
+2025-09-13 17:43:06 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Name prefilled | Expected: '晨 Armstrong' | Actual: '晨 Armstrong'
+2025-09-13 17:43:06 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Email prefilled | Expected: 'liaoyang@example.com' | Actual: 'liaoyang@example.com'
+2025-09-13 17:43:06 | INFO | utils.logger:step:86 | 🔸 STEP: Completing registration for user: 晨
+2025-09-13 17:43:06 | INFO | utils.logger:step:86 | 🔸 STEP: Selecting title: Mr
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'id='id_gender1''
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'id='id_gender1''
+2025-09-13 17:43:06 | INFO | utils.logger:step:86 | 🔸 STEP: Filling account information
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='password''
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='password' text='wEmtQOAe^n24''
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='days''
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Selected dropdown on 'id='days' value='1''
+2025-09-13 17:43:06 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='months''
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Selected dropdown on 'id='months' text='January''
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='years''
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Selected dropdown on 'id='years' value='1990''
+2025-09-13 17:43:07 | INFO | utils.logger:step:86 | 🔸 STEP: Checking newsletter subscription
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'id='newsletter''
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'id='newsletter''
+2025-09-13 17:43:07 | INFO | utils.logger:step:86 | 🔸 STEP: Checking special offers
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'id='optin''
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'id='optin''
+2025-09-13 17:43:07 | INFO | utils.logger:step:86 | 🔸 STEP: Filling address information
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='first_name''
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='first_name' text='晨''
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='last_name''
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='last_name' text='Armstrong''
+2025-09-13 17:43:07 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='company''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='company' text='Roberts, Ramos and Flores''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='address1''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='address1' text='海南省潮州县西峰南昌路f座 147496''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='address2''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='address2' text='Apt. 286''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='country''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Selected dropdown on 'id='country' text='India''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='state''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='state' text='Utah''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='city''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='city' text='南宁市''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='zipcode''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='zipcode' text='52286''
+2025-09-13 17:43:08 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'id='mobile_number''
+2025-09-13 17:43:09 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'id='mobile_number' text='15058726977''
+2025-09-13 17:43:09 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking create account button
+2025-09-13 17:43:09 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found element on 'xpath='//button[@data-qa='create-account']''
+2025-09-13 17:43:09 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Scrolled to element on 'xpath='//button[@data-qa='create-account']''
+2025-09-13 17:43:09 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'xpath='//button[@data-qa='create-account']''
+2025-09-13 17:43:12 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'xpath='//button[@data-qa='create-account']''
+2025-09-13 17:43:12 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying account created page loaded
+2025-09-13 17:43:12 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:43:12 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying account creation success message
+2025-09-13 17:43:12 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:43:12 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking continue button
+2025-09-13 17:43:12 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'xpath='//a[@data-qa='continue-button']''
+2025-09-13 17:43:15 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'xpath='//a[@data-qa='continue-button']''
+2025-09-13 17:43:17 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 17:43:20 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_user_registration_success - COMPLETED (32.38s)

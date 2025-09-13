@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "8f07a85f4562fb7e0115281d144cb246",
+    "name" : "AutomationExercise网站测试",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

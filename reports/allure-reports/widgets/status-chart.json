@@ -1,0 +1,211 @@
+[ {
+  "uid" : "6942a202c6f7559f",
+  "name" : "验证产品页面加载",
+  "time" : {
+    "start" : 1757755833697,
+    "stop" : 1757755838538,
+    "duration" : 4841
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f3c8c6c448e2d997",
+  "name" : "搜索产品功能",
+  "time" : {
+    "start" : 1757755845523,
+    "stop" : 1757755856771,
+    "duration" : 11248
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c2cadbe2a82e6b90",
+  "name" : "参数化登录测试",
+  "time" : {
+    "start" : 1757757079505,
+    "stop" : 1757757091670,
+    "duration" : 12165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3280c9bc3762fa26",
+  "name" : "注册后立即登录",
+  "time" : {
+    "start" : 1757757099400,
+    "stop" : 1757757136414,
+    "duration" : 37014
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cbd4446afafdc098",
+  "name" : "验证购物车页面加载",
+  "time" : {
+    "start" : 1757755682160,
+    "stop" : 1757755707054,
+    "duration" : 24894
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5e1994de2e0bc3b6",
+  "name" : "空凭据登录失败",
+  "time" : {
+    "start" : 1757756830952,
+    "stop" : 1757756842423,
+    "duration" : 11471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d2b7758073d98fb",
+  "name" : "添加产品到购物车",
+  "time" : {
+    "start" : 1757755948764,
+    "stop" : 1757755982662,
+    "duration" : 33898
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "8f3d4c6c35a58eb8",
+  "name" : "新用户注册成功",
+  "time" : {
+    "start" : 1757756573388,
+    "stop" : 1757756597876,
+    "duration" : 24488
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "97cecaac64ede7c8",
+  "name" : "从首页添加商品到购物车",
+  "time" : {
+    "start" : 1757755749121,
+    "stop" : 1757755754896,
+    "duration" : 5775
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "5ac95bf8a708bf69",
+  "name" : "成功提交联系表单",
+  "time" : {
+    "start" : 1757755773688,
+    "stop" : 1757755783124,
+    "duration" : 9436
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2f535f8dcf3c6f70",
+  "name" : "无效用户登录失败",
+  "time" : {
+    "start" : 1757756794615,
+    "stop" : 1757756807076,
+    "duration" : 12461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f75b4fe1c3d00377",
+  "name" : "登录表单验证",
+  "time" : {
+    "start" : 1757756849588,
+    "stop" : 1757756855545,
+    "duration" : 5957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8b5384189d21f05",
+  "name" : "有效用户登录成功",
+  "time" : {
+    "start" : 1757756727952,
+    "stop" : 1757756741726,
+    "duration" : 13774
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "bcbe3919c8f8a065",
+  "name" : "已存在邮箱注册失败",
+  "time" : {
+    "start" : 1757756604625,
+    "stop" : 1757756618431,
+    "duration" : 13806
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55cb829fc011dfa0",
+  "name" : "参数化登录测试",
+  "time" : {
+    "start" : 1757757063871,
+    "stop" : 1757757072965,
+    "duration" : 9094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "386f1714aa667607",
+  "name" : "注册表单验证",
+  "time" : {
+    "start" : 1757756625613,
+    "stop" : 1757756635025,
+    "duration" : 9412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20d403da45cef3ff",
+  "name" : "验证首页加载成功",
+  "time" : {
+    "start" : 1757755791371,
+    "stop" : 1757755802618,
+    "duration" : 11247
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bd48f2181d997811",
+  "name" : "验证联系我们页面加载",
+  "time" : {
+    "start" : 1757755761605,
+    "stop" : 1757755767232,
+    "duration" : 5627
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3e447fe1dc7948be",
+  "name" : "验证产品分类功能",
+  "time" : {
+    "start" : 1757749085714,
+    "stop" : 1757749085714,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "59a358fde5e9c5aa",
+  "name" : "参数化登录测试",
+  "time" : {
+    "start" : 1757756941173,
+    "stop" : 1757756951604,
+    "duration" : 10431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cc26a2d4ba9af0",
+  "name" : "参数化登录测试",
+  "time" : {
+    "start" : 1757756923605,
+    "stop" : 1757756934440,
+    "duration" : 10835
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

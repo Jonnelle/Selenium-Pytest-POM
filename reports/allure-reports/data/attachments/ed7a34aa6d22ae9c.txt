@@ -1,0 +1,61 @@
+2025-09-13 17:47:37 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_login_form_validation - COMPLETED (12.42s)
+2025-09-13 17:47:37 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_login_parametrized
+2025-09-13 17:47:37 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 17:47:47 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 17:47:47 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/login'
+2025-09-13 17:47:47 | INFO | utils.logger:step:86 | 🔸 STEP: Opened login page
+2025-09-13 17:47:47 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying login page loaded
+2025-09-13 17:47:47 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:47:47 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:47:47 | INFO | utils.logger:step:86 | 🔸 STEP: Logging in user: testuser@example.com
+2025-09-13 17:47:47 | INFO | utils.logger:step:86 | 🔸 STEP: Filling login form with email: testuser@example.com
+2025-09-13 17:47:48 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='login-email']''
+2025-09-13 17:47:48 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='login-email']' text='testuser@example.com''
+2025-09-13 17:47:48 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='login-password']''
+2025-09-13 17:47:48 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='login-password']' text='Test123456''
+2025-09-13 17:47:48 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking login button
+2025-09-13 17:47:48 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'xpath='//button[@data-qa='login-button']''
+2025-09-13 17:47:52 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'xpath='//button[@data-qa='login-button']''
+2025-09-13 17:47:55 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Took screenshot on 'reports/screenshots/assertion_failed.png'
+2025-09-13 17:47:55 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 17:47:58 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_login_parametrized - COMPLETED (20.46s)
+2025-09-13 17:48:01 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_login_parametrized
+2025-09-13 17:48:01 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 17:48:13 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 17:48:13 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/login'
+2025-09-13 17:48:13 | INFO | utils.logger:step:86 | 🔸 STEP: Opened login page
+2025-09-13 17:48:13 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying login page loaded
+2025-09-13 17:48:13 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:48:13 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:48:13 | INFO | utils.logger:step:86 | 🔸 STEP: Logging in user: testuser@example.com
+2025-09-13 17:48:13 | INFO | utils.logger:step:86 | 🔸 STEP: Filling login form with email: testuser@example.com
+2025-09-13 17:48:13 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='login-email']''
+2025-09-13 17:48:14 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='login-email']' text='testuser@example.com''
+2025-09-13 17:48:14 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='login-password']''
+2025-09-13 17:48:14 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='login-password']' text='Test123456''
+2025-09-13 17:48:14 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking login button
+2025-09-13 17:48:14 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'xpath='//button[@data-qa='login-button']''
+2025-09-13 17:48:18 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'xpath='//button[@data-qa='login-button']''
+2025-09-13 17:48:21 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Took screenshot on 'reports/screenshots/assertion_failed.png'
+2025-09-13 17:48:34 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 17:48:36 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_login_parametrized - COMPLETED (35.11s)
+2025-09-13 17:48:39 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_login_parametrized
+2025-09-13 17:48:39 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 17:48:49 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 17:48:49 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/login'
+2025-09-13 17:48:49 | INFO | utils.logger:step:86 | 🔸 STEP: Opened login page
+2025-09-13 17:48:49 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying login page loaded
+2025-09-13 17:48:49 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:48:49 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:48:49 | INFO | utils.logger:step:86 | 🔸 STEP: Logging in user: testuser@example.com
+2025-09-13 17:48:49 | INFO | utils.logger:step:86 | 🔸 STEP: Filling login form with email: testuser@example.com
+2025-09-13 17:48:49 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='login-email']''
+2025-09-13 17:48:49 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='login-email']' text='testuser@example.com''
+2025-09-13 17:48:49 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='login-password']''
+2025-09-13 17:48:49 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='login-password']' text='Test123456''
+2025-09-13 17:48:49 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking login button
+2025-09-13 17:48:49 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'xpath='//button[@data-qa='login-button']''
+2025-09-13 17:48:51 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'xpath='//button[@data-qa='login-button']''
+2025-09-13 17:48:54 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Took screenshot on 'reports/screenshots/assertion_failed.png'
+2025-09-13 17:48:54 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 17:48:56 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_login_parametrized - COMPLETED (17.58s)

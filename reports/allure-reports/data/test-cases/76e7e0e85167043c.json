@@ -1,0 +1,292 @@
+{
+  "uid" : "76e7e0e85167043c",
+  "name" : "验证购物车页面加载",
+  "fullName" : "tests.test_cart.TestCart#test_cart_page_loads",
+  "historyId" : "4604803f97e35c43e5fba0bb83a1dfaa",
+  "time" : {
+    "start" : 1757749794706,
+    "stop" : 1757749820470,
+    "duration" : 25764
+  },
+  "description" : "测试购物车页面能够正确加载",
+  "descriptionHtml" : "<p>测试购物车页面能够正确加载</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 购物车页面加载失败\nassert False\n +  where False = <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>>()\n +    where <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>> = <tests.test_cart.TestCart object at 0x0000029D79865570>.navigate_to_cart",
+  "statusTrace" : "tests\\test_cart.py:27: in test_cart_page_loads\n    assert self.navigate_to_cart(), \"购物车页面加载失败\"\nE   AssertionError: 购物车页面加载失败\nE   assert False\nE    +  where False = <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>>()\nE    +    where <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>> = <tests.test_cart.TestCart object at 0x0000029D79865570>.navigate_to_cart",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757749784899,
+      "stop" : 1757749793147,
+      "duration" : 8248
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestCart",
+    "time" : {
+      "start" : 1757749784899,
+      "stop" : 1757749784899,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757749793147,
+      "stop" : 1757749794642,
+      "duration" : 1495
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757749794642,
+      "stop" : 1757749794706,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757749784763,
+      "stop" : 1757749784879,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757749784883,
+      "stop" : 1757749784899,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757749784879,
+      "stop" : 1757749784883,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试购物车页面能够正确加载",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 购物车页面加载失败\nassert False\n +  where False = <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>>()\n +    where <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>> = <tests.test_cart.TestCart object at 0x0000029D79865570>.navigate_to_cart",
+    "statusTrace" : "tests\\test_cart.py:27: in test_cart_page_loads\n    assert self.navigate_to_cart(), \"购物车页面加载失败\"\nE   AssertionError: 购物车页面加载失败\nE   assert False\nE    +  where False = <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>>()\nE    +    where <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>> = <tests.test_cart.TestCart object at 0x0000029D79865570>.navigate_to_cart",
+    "steps" : [ {
+      "name" : "导航到购物车页面",
+      "time" : {
+        "start" : 1757749794706,
+        "stop" : 1757749820469,
+        "duration" : 25763
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: 购物车页面加载失败\nassert False\n +  where False = <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>>()\n +    where <bound method BaseTest.navigate_to_cart of <tests.test_cart.TestCart object at 0x0000029D79865570>> = <tests.test_cart.TestCart object at 0x0000029D79865570>.navigate_to_cart\n",
+      "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\test_cart.py\", line 27, in test_cart_page_loads\n    assert self.navigate_to_cart(), \"购物车页面加载失败\"\n",
+      "steps" : [ {
+        "name" : "导航到购物车页面",
+        "time" : {
+          "start" : 1757749794706,
+          "stop" : 1757749820469,
+          "duration" : 25763
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证购物车页面页面加载",
+          "time" : {
+            "start" : 1757749799157,
+            "stop" : 1757749820469,
+            "duration" : 21312
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "207f8faf3c691bf7",
+            "name" : "Screenshot_购物车页面_load_failed",
+            "source" : "207f8faf3c691bf7.png",
+            "type" : "image/png",
+            "size" : 274642
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "fa7d36e6b88bf11e",
+      "name" : "截图_test_cart_page_loads",
+      "source" : "fa7d36e6b88bf11e.png",
+      "type" : "image/png",
+      "size" : 274642
+    }, {
+      "uid" : "d9ada346fc7c56b4",
+      "name" : "stdout",
+      "source" : "d9ada346fc7c56b4.txt",
+      "type" : "text/plain",
+      "size" : 1301
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757749820966,
+      "stop" : 1757749823311,
+      "duration" : 2345
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestCart::0",
+    "time" : {
+      "start" : 1757749823313,
+      "stop" : 1757749823313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "购物车页面"
+  }, {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "cart"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "20396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke", "allure", "cart" ]
+  },
+  "source" : "76e7e0e85167043c.json",
+  "parameterValues" : [ ]
+}

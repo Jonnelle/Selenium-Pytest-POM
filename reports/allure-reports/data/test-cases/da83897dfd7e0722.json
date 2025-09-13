@@ -1,0 +1,334 @@
+{
+  "uid" : "da83897dfd7e0722",
+  "name" : "搜索产品功能",
+  "fullName" : "tests.test_products.TestProducts#test_product_search_basic",
+  "historyId" : "661888d7fadf04125a110298178ac943",
+  "time" : {
+    "start" : 1757753254540,
+    "stop" : 1757753266963,
+    "duration" : 12423
+  },
+  "description" : "测试产品搜索功能的基本操作",
+  "descriptionHtml" : "<p>测试产品搜索功能的基本操作</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757753083796,
+      "stop" : 1757753083919,
+      "duration" : 123
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestProducts",
+    "time" : {
+      "start" : 1757753248164,
+      "stop" : 1757753248165,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757753254311,
+      "stop" : 1757753254481,
+      "duration" : 170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757753254482,
+      "stop" : 1757753254539,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757753083920,
+      "stop" : 1757753083928,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757753248165,
+      "stop" : 1757753254311,
+      "duration" : 6146
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757753083928,
+      "stop" : 1757753083941,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试产品搜索功能的基本操作",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "导航到产品页面",
+      "time" : {
+        "start" : 1757753254540,
+        "stop" : 1757753263648,
+        "duration" : 9108
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "导航到产品页面",
+        "time" : {
+          "start" : 1757753254540,
+          "stop" : 1757753263648,
+          "duration" : 9108
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证产品页面页面加载",
+          "time" : {
+            "start" : 1757753263610,
+            "stop" : 1757753263648,
+            "duration" : 38
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "搜索'top'",
+      "time" : {
+        "start" : 1757753263648,
+        "stop" : 1757753266534,
+        "duration" : 2886
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证搜索结果标题",
+      "time" : {
+        "start" : 1757753266534,
+        "stop" : 1757753266570,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证搜索结果",
+      "time" : {
+        "start" : 1757753266570,
+        "stop" : 1757753266589,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证搜索结果包含搜索词",
+      "time" : {
+        "start" : 1757753266589,
+        "stop" : 1757753266961,
+        "duration" : 372
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cb82074f8a99ec95",
+      "name" : "stdout",
+      "source" : "cb82074f8a99ec95.txt",
+      "type" : "text/plain",
+      "size" : 2418
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestProducts::0",
+    "time" : {
+      "start" : 1757753269225,
+      "stop" : 1757753269225,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757753266964,
+      "stop" : 1757753269223,
+      "duration" : 2259
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "feature",
+    "value" : "产品功能"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "产品搜索"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_products"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProducts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "20344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "product", "smoke", "allure" ]
+  },
+  "source" : "da83897dfd7e0722.json",
+  "parameterValues" : [ ]
+}

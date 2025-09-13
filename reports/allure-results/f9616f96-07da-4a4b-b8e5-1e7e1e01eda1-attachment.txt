@@ -1,0 +1,8 @@
+2025-09-13 15:39:35 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_valid_user_login
+2025-09-13 15:39:35 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 15:39:35 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_valid_user_login - COMPLETED (0.04s)
+2025-09-13 15:39:38 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_valid_user_login
+2025-09-13 15:39:38 | ERROR | utils.logger:error:74 | 浏览器设置失败: local variable 'os' referenced before assignment
+2025-09-13 15:39:38 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_valid_user_login - COMPLETED (0.06s)
+ | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 15:39:41 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_valid_user_login - COMPLETED (0.06s)

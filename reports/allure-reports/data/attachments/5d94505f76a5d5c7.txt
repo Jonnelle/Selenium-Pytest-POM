@@ -1,0 +1,7 @@
+2025-09-13 15:33:47 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_add_product_to_cart
+2025-09-13 15:33:47 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 15:33:47 | ERROR | utils.logger:error:74 | 浏览器设置失败: local variable 'os' referenced before assignment
+2025-09-13 15:33:47 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_add_product_to_cart - COMPLETED (0.02s)
+2025-09-13 15:33:50 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_add_product_to_cart
+2025-09-13 15:33:50 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 15:33:50 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_add_product_to_cart - COMPLETED (0.04s)

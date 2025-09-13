@@ -1,0 +1,19 @@
+2025-09-13 17:43:20 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_registration_with_existing_email
+2025-09-13 17:43:20 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+e_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/login'
+2025-09-13 17:43:31 | INFO | utils.logger:step:86 | 🔸 STEP: Opened login page
+2025-09-13 17:43:31 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying login page loaded
+2025-09-13 17:43:31 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:43:31 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:43:31 | INFO | utils.logger:step:86 | 🔸 STEP: Signing up new user: Test User
+2025-09-13 17:43:31 | INFO | utils.logger:step:86 | 🔸 STEP: Filling signup form with name: Test User, email: existing@example.com
+2025-09-13 17:43:31 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='signup-name']''
+2025-09-13 17:43:31 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='signup-name']' text='Test User''
+2025-09-13 17:43:31 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='signup-email']''
+2025-09-13 17:43:31 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='signup-email']' text='existing@example.com''
+2025-09-13 17:43:31 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking signup button
+2025-09-13 17:43:31 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'xpath='//button[@data-qa='signup-button']''
+2025-09-13 17:43:36 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'xpath='//button[@data-qa='signup-button']''
+2025-09-13 17:43:38 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying email already exists error
+2025-09-13 17:43:38 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 17:43:41 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_registration_with_existing_email - COMPLETED (21.22s)

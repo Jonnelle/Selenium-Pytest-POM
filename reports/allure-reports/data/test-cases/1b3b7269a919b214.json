@@ -1,0 +1,358 @@
+{
+  "uid" : "1b3b7269a919b214",
+  "name" : "添加产品到购物车",
+  "fullName" : "tests.test_products.TestProducts#test_add_product_to_cart",
+  "historyId" : "d6af4567a03557adaca50f8adc4c26c5",
+  "time" : {
+    "start" : 1757753276223,
+    "stop" : 1757753308657,
+    "duration" : 32434
+  },
+  "description" : "测试从产品页面添加产品到购物车",
+  "descriptionHtml" : "<p>测试从产品页面添加产品到购物车</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 应该跳转到购物车页面，当前URL: https://automationexercise.com/products\nassert False",
+  "statusTrace" : "tests\\test_products.py:191: in test_add_product_to_cart\n    self.assert_with_screenshot(\ntests\\base_test.py:297: in assert_with_screenshot\n    assert condition, message\nE   AssertionError: 应该跳转到购物车页面，当前URL: https://automationexercise.com/products\nE   assert False",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757753083796,
+      "stop" : 1757753083919,
+      "duration" : 123
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestProducts",
+    "time" : {
+      "start" : 1757753269230,
+      "stop" : 1757753269231,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757753275995,
+      "stop" : 1757753276169,
+      "duration" : 174
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757753083920,
+      "stop" : 1757753083928,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757753276169,
+      "stop" : 1757753276222,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757753269231,
+      "stop" : 1757753275995,
+      "duration" : 6764
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757753083928,
+      "stop" : 1757753083941,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试从产品页面添加产品到购物车",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 应该跳转到购物车页面，当前URL: https://automationexercise.com/products\nassert False",
+    "statusTrace" : "tests\\test_products.py:191: in test_add_product_to_cart\n    self.assert_with_screenshot(\ntests\\base_test.py:297: in assert_with_screenshot\n    assert condition, message\nE   AssertionError: 应该跳转到购物车页面，当前URL: https://automationexercise.com/products\nE   assert False",
+    "steps" : [ {
+      "name" : "导航到产品页面",
+      "time" : {
+        "start" : 1757753276223,
+        "stop" : 1757753284533,
+        "duration" : 8310
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "导航到产品页面",
+        "time" : {
+          "start" : 1757753276223,
+          "stop" : 1757753284533,
+          "duration" : 8310
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证产品页面页面加载",
+          "time" : {
+            "start" : 1757753284498,
+            "stop" : 1757753284533,
+            "duration" : 35
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "添加第一个产品到购物车",
+      "time" : {
+        "start" : 1757753284533,
+        "stop" : 1757753284745,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证模态框出现",
+      "time" : {
+        "start" : 1757753284745,
+        "stop" : 1757753285338,
+        "duration" : 593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击查看购物车",
+      "time" : {
+        "start" : 1757753285338,
+        "stop" : 1757753308420,
+        "duration" : 23082
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证跳转到购物车页面",
+      "time" : {
+        "start" : 1757753308420,
+        "stop" : 1757753308656,
+        "duration" : 236
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: 应该跳转到购物车页面，当前URL: https://automationexercise.com/products\nassert False\n",
+      "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\test_products.py\", line 191, in test_add_product_to_cart\n    self.assert_with_screenshot(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\base_test.py\", line 297, in assert_with_screenshot\n    assert condition, message\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "742a34073544e925",
+        "name" : "Screenshot_assertion_failed",
+        "source" : "742a34073544e925.png",
+        "type" : "image/png",
+        "size" : 412299
+      }, {
+        "uid" : "92038397dde21580",
+        "name" : "Page Source",
+        "source" : "92038397dde21580.html",
+        "type" : "text/html",
+        "size" : 67299
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2d86016d40254209",
+      "name" : "截图_test_add_product_to_cart",
+      "source" : "2d86016d40254209.png",
+      "type" : "image/png",
+      "size" : 412299
+    }, {
+      "uid" : "f7377968b8c51580",
+      "name" : "stdout",
+      "source" : "f7377968b8c51580.txt",
+      "type" : "text/plain",
+      "size" : 2133
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestProducts::0",
+    "time" : {
+      "start" : 1757753311165,
+      "stop" : 1757753311166,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757753308865,
+      "stop" : 1757753311164,
+      "duration" : 2299
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "story",
+    "value" : "添加到购物车"
+  }, {
+    "name" : "feature",
+    "value" : "产品功能"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "cart"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_products"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProducts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "20344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke", "allure", "cart" ]
+  },
+  "source" : "1b3b7269a919b214.json",
+  "parameterValues" : [ ]
+}

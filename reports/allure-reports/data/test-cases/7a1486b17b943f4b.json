@@ -1,0 +1,290 @@
+{
+  "uid" : "7a1486b17b943f4b",
+  "name" : "验证购物车页面加载",
+  "fullName" : "tests.test_cart.TestCart#test_cart_page_loads",
+  "historyId" : "4604803f97e35c43e5fba0bb83a1dfaa",
+  "time" : {
+    "start" : 1757749832823,
+    "stop" : 1757749851896,
+    "duration" : 19073
+  },
+  "description" : "测试购物车页面能够正确加载",
+  "descriptionHtml" : "<p>测试购物车页面能够正确加载</p>\n",
+  "status" : "broken",
+  "statusMessage" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))",
+  "statusTrace" : ".venv1\\lib\\site-packages\\urllib3\\connectionpool.py:787: in urlopen\n    response = self._make_request(\n.venv1\\lib\\site-packages\\urllib3\\connectionpool.py:534: in _make_request\n    response = conn.getresponse()\n.venv1\\lib\\site-packages\\urllib3\\connection.py:565: in getresponse\n    httplib_response = super().getresponse()\nD:\\Program\\Python310\\lib\\http\\client.py:1375: in getresponse\n    response.begin()\nD:\\Program\\Python310\\lib\\http\\client.py:318: in begin\n    version, status, reason = self._read_status()\nD:\\Program\\Python310\\lib\\http\\client.py:279: in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\nD:\\Program\\Python310\\lib\\socket.py:705: in readinto\n    return self._sock.recv_into(b)\nE   ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host\n\nDuring handling of the above exception, another exception occurred:\ntests\\test_cart.py:27: in test_cart_page_loads\n    assert self.navigate_to_cart(), \"购物车页面加载失败\"\ntests\\base_test.py:133: in navigate_to_cart\n    return self.verify_page_loaded(self.cart_page, \"购物车页面\")\ntests\\base_test.py:99: in verify_page_loaded\n    is_loaded = page_object.verify_page_loaded()\npages\\cart_page.py:60: in verify_page_loaded\n    return (self.verify_element_visible(self.CART_TABLE) or\npages\\base_page.py:208: in verify_element_visible\n    is_visible = self.is_element_visible(locator, timeout)\npages\\base_page.py:124: in is_element_visible\n    return self.utils.is_element_visible(locator, timeout)\nutils\\webdriver_utils.py:246: in is_element_visible\n    WebDriverWait(self.driver, timeout).until(\n.venv1\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:92: in until\n    value = method(self._driver)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:150: in _predicate\n    return _element_if_visible(driver.find_element(*locator))\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:741: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:345: in execute\n    response = self.command_executor.execute(driver_command, params)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py:300: in execute\n    return self._request(command_info[0], url, body=data)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py:321: in _request\n    response = self._conn.request(method, url, body=body, headers=headers)\n.venv1\\lib\\site-packages\\urllib3\\_request_methods.py:143: in request\n    return self.request_encode_body(\n.venv1\\lib\\site-packages\\urllib3\\_request_methods.py:278: in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n.venv1\\lib\\site-packages\\urllib3\\poolmanager.py:459: in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n.venv1\\lib\\site-packages\\urllib3\\connectionpool.py:841: in urlopen\n    retries = retries.increment(\n.venv1\\lib\\site-packages\\urllib3\\util\\retry.py:474: in increment\n    raise reraise(type(error), error, _stacktrace)\n.venv1\\lib\\site-packages\\urllib3\\util\\util.py:38: in reraise\n    raise value.with_traceback(tb)\n.venv1\\lib\\site-packages\\urllib3\\connectionpool.py:787: in urlopen\n    response = self._make_request(\n.venv1\\lib\\site-packages\\urllib3\\connectionpool.py:534: in _make_request\n    response = conn.getresponse()\n.venv1\\lib\\site-packages\\urllib3\\connection.py:565: in getresponse\n    httplib_response = super().getresponse()\nD:\\Program\\Python310\\lib\\http\\client.py:1375: in getresponse\n    response.begin()\nD:\\Program\\Python310\\lib\\http\\client.py:318: in begin\n    version, status, reason = self._read_status()\nD:\\Program\\Python310\\lib\\http\\client.py:279: in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\nD:\\Program\\Python310\\lib\\socket.py:705: in readinto\n    return self._sock.recv_into(b)\nE   urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757749832506,
+      "stop" : 1757749832746,
+      "duration" : 240
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757749826330,
+      "stop" : 1757749832506,
+      "duration" : 6176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestCart",
+    "time" : {
+      "start" : 1757749826330,
+      "stop" : 1757749826330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757749784763,
+      "stop" : 1757749784879,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757749832746,
+      "stop" : 1757749832821,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757749784883,
+      "stop" : 1757749784899,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757749784879,
+      "stop" : 1757749784883,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试购物车页面能够正确加载",
+    "status" : "broken",
+    "statusMessage" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))",
+    "statusTrace" : ".venv1\\lib\\site-packages\\urllib3\\connectionpool.py:787: in urlopen\n    response = self._make_request(\n.venv1\\lib\\site-packages\\urllib3\\connectionpool.py:534: in _make_request\n    response = conn.getresponse()\n.venv1\\lib\\site-packages\\urllib3\\connection.py:565: in getresponse\n    httplib_response = super().getresponse()\nD:\\Program\\Python310\\lib\\http\\client.py:1375: in getresponse\n    response.begin()\nD:\\Program\\Python310\\lib\\http\\client.py:318: in begin\n    version, status, reason = self._read_status()\nD:\\Program\\Python310\\lib\\http\\client.py:279: in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\nD:\\Program\\Python310\\lib\\socket.py:705: in readinto\n    return self._sock.recv_into(b)\nE   ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host\n\nDuring handling of the above exception, another exception occurred:\ntests\\test_cart.py:27: in test_cart_page_loads\n    assert self.navigate_to_cart(), \"购物车页面加载失败\"\ntests\\base_test.py:133: in navigate_to_cart\n    return self.verify_page_loaded(self.cart_page, \"购物车页面\")\ntests\\base_test.py:99: in verify_page_loaded\n    is_loaded = page_object.verify_page_loaded()\npages\\cart_page.py:60: in verify_page_loaded\n    return (self.verify_element_visible(self.CART_TABLE) or\npages\\base_page.py:208: in verify_element_visible\n    is_visible = self.is_element_visible(locator, timeout)\npages\\base_page.py:124: in is_element_visible\n    return self.utils.is_element_visible(locator, timeout)\nutils\\webdriver_utils.py:246: in is_element_visible\n    WebDriverWait(self.driver, timeout).until(\n.venv1\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:92: in until\n    value = method(self._driver)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py:150: in _predicate\n    return _element_if_visible(driver.find_element(*locator))\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:741: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:345: in execute\n    response = self.command_executor.execute(driver_command, params)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py:300: in execute\n    return self._request(command_info[0], url, body=data)\n.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py:321: in _request\n    response = self._conn.request(method, url, body=body, headers=headers)\n.venv1\\lib\\site-packages\\urllib3\\_request_methods.py:143: in request\n    return self.request_encode_body(\n.venv1\\lib\\site-packages\\urllib3\\_request_methods.py:278: in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n.venv1\\lib\\site-packages\\urllib3\\poolmanager.py:459: in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n.venv1\\lib\\site-packages\\urllib3\\connectionpool.py:841: in urlopen\n    retries = retries.increment(\n.venv1\\lib\\site-packages\\urllib3\\util\\retry.py:474: in increment\n    raise reraise(type(error), error, _stacktrace)\n.venv1\\lib\\site-packages\\urllib3\\util\\util.py:38: in reraise\n    raise value.with_traceback(tb)\n.venv1\\lib\\site-packages\\urllib3\\connectionpool.py:787: in urlopen\n    response = self._make_request(\n.venv1\\lib\\site-packages\\urllib3\\connectionpool.py:534: in _make_request\n    response = conn.getresponse()\n.venv1\\lib\\site-packages\\urllib3\\connection.py:565: in getresponse\n    httplib_response = super().getresponse()\nD:\\Program\\Python310\\lib\\http\\client.py:1375: in getresponse\n    response.begin()\nD:\\Program\\Python310\\lib\\http\\client.py:318: in begin\n    version, status, reason = self._read_status()\nD:\\Program\\Python310\\lib\\http\\client.py:279: in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\nD:\\Program\\Python310\\lib\\socket.py:705: in readinto\n    return self._sock.recv_into(b)\nE   urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))",
+    "steps" : [ {
+      "name" : "导航到购物车页面",
+      "time" : {
+        "start" : 1757749832823,
+        "stop" : 1757749851896,
+        "duration" : 19073
+      },
+      "status" : "broken",
+      "statusMessage" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))\n",
+      "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\test_cart.py\", line 27, in test_cart_page_loads\n    assert self.navigate_to_cart(), \"购物车页面加载失败\"\n  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\base_test.py\", line 133, in navigate_to_cart\n    return self.verify_page_loaded(self.cart_page, \"购物车页面\")\n  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\base_test.py\", line 99, in verify_page_loaded\n    is_loaded = page_object.verify_page_loaded()\n  File \"D:\\LAB\\Selenium-Pytest-POM\\pages\\cart_page.py\", line 60, in verify_page_loaded\n    return (self.verify_element_visible(self.CART_TABLE) or\n  File \"D:\\LAB\\Selenium-Pytest-POM\\pages\\base_page.py\", line 208, in verify_element_visible\n    is_visible = self.is_element_visible(locator, timeout)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\pages\\base_page.py\", line 124, in is_element_visible\n    return self.utils.is_element_visible(locator, timeout)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\utils\\webdriver_utils.py\", line 246, in is_element_visible\n    WebDriverWait(self.driver, timeout).until(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 92, in until\n    value = method(self._driver)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py\", line 150, in _predicate\n    return _element_if_visible(driver.find_element(*locator))\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 741, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 345, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py\", line 300, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py\", line 321, in _request\n    response = self._conn.request(method, url, body=body, headers=headers)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\_request_methods.py\", line 143, in request\n    return self.request_encode_body(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\_request_methods.py\", line 278, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\poolmanager.py\", line 459, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\util\\retry.py\", line 474, in increment\n    raise reraise(type(error), error, _stacktrace)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\util\\util.py\", line 38, in reraise\n    raise value.with_traceback(tb)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connectionpool.py\", line 534, in _make_request\n    response = conn.getresponse()\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connection.py\", line 565, in getresponse\n    httplib_response = super().getresponse()\n  File \"D:\\Program\\Python310\\lib\\http\\client.py\", line 1375, in getresponse\n    response.begin()\n  File \"D:\\Program\\Python310\\lib\\http\\client.py\", line 318, in begin\n    version, status, reason = self._read_status()\n  File \"D:\\Program\\Python310\\lib\\http\\client.py\", line 279, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"D:\\Program\\Python310\\lib\\socket.py\", line 705, in readinto\n    return self._sock.recv_into(b)\n",
+      "steps" : [ {
+        "name" : "导航到购物车页面",
+        "time" : {
+          "start" : 1757749832823,
+          "stop" : 1757749851896,
+          "duration" : 19073
+        },
+        "status" : "broken",
+        "statusMessage" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))\n",
+        "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\base_test.py\", line 133, in navigate_to_cart\n    return self.verify_page_loaded(self.cart_page, \"购物车页面\")\n  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\base_test.py\", line 99, in verify_page_loaded\n    is_loaded = page_object.verify_page_loaded()\n  File \"D:\\LAB\\Selenium-Pytest-POM\\pages\\cart_page.py\", line 60, in verify_page_loaded\n    return (self.verify_element_visible(self.CART_TABLE) or\n  File \"D:\\LAB\\Selenium-Pytest-POM\\pages\\base_page.py\", line 208, in verify_element_visible\n    is_visible = self.is_element_visible(locator, timeout)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\pages\\base_page.py\", line 124, in is_element_visible\n    return self.utils.is_element_visible(locator, timeout)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\utils\\webdriver_utils.py\", line 246, in is_element_visible\n    WebDriverWait(self.driver, timeout).until(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 92, in until\n    value = method(self._driver)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py\", line 150, in _predicate\n    return _element_if_visible(driver.find_element(*locator))\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 741, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 345, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py\", line 300, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py\", line 321, in _request\n    response = self._conn.request(method, url, body=body, headers=headers)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\_request_methods.py\", line 143, in request\n    return self.request_encode_body(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\_request_methods.py\", line 278, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\poolmanager.py\", line 459, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\util\\retry.py\", line 474, in increment\n    raise reraise(type(error), error, _stacktrace)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\util\\util.py\", line 38, in reraise\n    raise value.with_traceback(tb)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connectionpool.py\", line 534, in _make_request\n    response = conn.getresponse()\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connection.py\", line 565, in getresponse\n    httplib_response = super().getresponse()\n  File \"D:\\Program\\Python310\\lib\\http\\client.py\", line 1375, in getresponse\n    response.begin()\n  File \"D:\\Program\\Python310\\lib\\http\\client.py\", line 318, in begin\n    version, status, reason = self._read_status()\n  File \"D:\\Program\\Python310\\lib\\http\\client.py\", line 279, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"D:\\Program\\Python310\\lib\\socket.py\", line 705, in readinto\n    return self._sock.recv_into(b)\n",
+        "steps" : [ {
+          "name" : "验证购物车页面页面加载",
+          "time" : {
+            "start" : 1757749836793,
+            "stop" : 1757749851822,
+            "duration" : 15029
+          },
+          "status" : "broken",
+          "statusMessage" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))\n",
+          "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\base_test.py\", line 99, in verify_page_loaded\n    is_loaded = page_object.verify_page_loaded()\n  File \"D:\\LAB\\Selenium-Pytest-POM\\pages\\cart_page.py\", line 60, in verify_page_loaded\n    return (self.verify_element_visible(self.CART_TABLE) or\n  File \"D:\\LAB\\Selenium-Pytest-POM\\pages\\base_page.py\", line 208, in verify_element_visible\n    is_visible = self.is_element_visible(locator, timeout)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\pages\\base_page.py\", line 124, in is_element_visible\n    return self.utils.is_element_visible(locator, timeout)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\utils\\webdriver_utils.py\", line 246, in is_element_visible\n    WebDriverWait(self.driver, timeout).until(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 92, in until\n    value = method(self._driver)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py\", line 150, in _predicate\n    return _element_if_visible(driver.find_element(*locator))\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 741, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 345, in execute\n    response = self.command_executor.execute(driver_command, params)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py\", line 300, in execute\n    return self._request(command_info[0], url, body=data)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py\", line 321, in _request\n    response = self._conn.request(method, url, body=body, headers=headers)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\_request_methods.py\", line 143, in request\n    return self.request_encode_body(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\_request_methods.py\", line 278, in request_encode_body\n    return self.urlopen(method, url, **extra_kw)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\poolmanager.py\", line 459, in urlopen\n    response = conn.urlopen(method, u.request_uri, **kw)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\util\\retry.py\", line 474, in increment\n    raise reraise(type(error), error, _stacktrace)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\util\\util.py\", line 38, in reraise\n    raise value.with_traceback(tb)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connectionpool.py\", line 534, in _make_request\n    response = conn.getresponse()\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\urllib3\\connection.py\", line 565, in getresponse\n    httplib_response = super().getresponse()\n  File \"D:\\Program\\Python310\\lib\\http\\client.py\", line 1375, in getresponse\n    response.begin()\n  File \"D:\\Program\\Python310\\lib\\http\\client.py\", line 318, in begin\n    version, status, reason = self._read_status()\n  File \"D:\\Program\\Python310\\lib\\http\\client.py\", line 279, in _read_status\n    line = str(self.fp.readline(_MAXLINE + 1), \"iso-8859-1\")\n  File \"D:\\Program\\Python310\\lib\\socket.py\", line 705, in readinto\n    return self._sock.recv_into(b)\n",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1c04eaaa5697e785",
+      "name" : "log",
+      "source" : "1c04eaaa5697e785.txt",
+      "type" : "text/plain",
+      "size" : 1295
+    }, {
+      "uid" : "d3c45ff2f04ca2db",
+      "name" : "stdout",
+      "source" : "d3c45ff2f04ca2db.txt",
+      "type" : "text/plain",
+      "size" : 2085
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757749872555,
+      "stop" : 1757749892977,
+      "duration" : 20422
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestCart::0",
+    "time" : {
+      "start" : 1757749892981,
+      "stop" : 1757749892981,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "购物车页面"
+  }, {
+    "name" : "feature",
+    "value" : "购物车功能"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "cart"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCart"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "20396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke", "allure", "cart" ]
+  },
+  "source" : "7a1486b17b943f4b.json",
+  "parameterValues" : [ ]
+}

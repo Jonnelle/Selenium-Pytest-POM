@@ -1,0 +1,11 @@
+2025-09-13 15:52:12 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_add_product_from_home
+2025-09-13 15:52:12 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 15:52:23 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 15:52:23 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com'
+2025-09-13 15:52:23 | INFO | utils.logger:step:86 | 🔸 STEP: Opened home page
+2025-09-13 15:52:23 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying home page loaded
+2025-09-13 15:52:23 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 15:52:23 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 15:52:23 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found elements on 'xpath='//div[@class='productinfo text-center']//p' (count: 40)'
+2025-09-13 15:52:23 | INFO | utils.logger:step:86 | 🔸 STEP: 将要添加的产品: Blue Top
+2025-09-13 15:52:24 | INFO | utils.logger:info:62 | 关闭浏览器

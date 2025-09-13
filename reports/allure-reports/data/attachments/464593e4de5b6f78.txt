@@ -1,0 +1,43 @@
+2025-09-13 17:30:04 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_products_page_loads
+2025-09-13 17:30:04 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+自动下载ChromeDriver失败，尝试使用系统ChromeDriver: Could not reach host. Are you offline?
+2025-09-13 17:30:17 | ERROR | utils.logger:error:74 | 浏览器设置失败: Message: session not created: This version of ChromeDriver only supports Chrome version 138
+Current browser version is 140.0.7339.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c0f46f65+76917]
+	GetHandleVerifier [0x0x7ff6c0f46fc0+77008]
+	(No symbol) [0x0x7ff6c0cf9dea]
+	(No symbol) [0x0x7ff6c0d3e1df]
+	(No symbol) [0x0x7ff6c0d3d22b]
+	(No symbol) [0x0x7ff6c0d36e2a]
+	(No symbol) [0x0x7ff6c0d32675]
+	(No symbol) [0x0x7ff6c0d85e9e]
+	(No symbol) [0x0x7ff6c0d85630]
+	(No symbol) [0x0x7ff6c0d78243]
+	(No symbol) [0x0x7ff6c0d41431]
+	(No symbol) [0x0x7ff6c0d421c3]
+	GetHandleVerifier [0x0x7ff6c121d29d+3051437]
+	GetHandleVerifier [0x0x7ff6c12178f3+3028483]
+	GetHandleVerifier [0x0x7ff6c123588d+3151261]
+	GetHandleVerifier [0x0x7ff6c0f6182e+185662]
+	GetHandleVerifier [0x0x7ff6c0f696ef+218111]
+	GetHandleVerifier [0x0x7ff6c0f4fae4+112628]
+	GetHandleVerifier [0x0x7ff6c0f4fc99+113065]
+	GetHandleVerifier [0x0x7ff6c0f36c68+10616]
+	BaseThreadInitThunk [0x0x7ffc8ecfe8d7+23]
+	RtlUserThreadStart [0x0x7ffc8f728d9c+44]
+
+2025-09-13 17:30:26 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_products_page_loads - COMPLETED (21.30s)
+2025-09-13 17:30:29 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_products_page_loads
+2025-09-13 17:30:29 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+
+2025-09-13 17:30:38 | INFO | utils.logger:step:86 | 🔸 STEP: Opened products page
+2025-09-13 17:30:38 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying products page loaded
+2025-09-13 17:30:38 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:30:38 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying 'All Products' title
+2025-09-13 17:30:38 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:30:38 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying products visible
+2025-09-13 17:30:38 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Found elements on 'class name='productinfo' (count: 34)'
+2025-09-13 17:30:38 | INFO | utils.logger:step:86 | 🔸 STEP: Found 34 products on page
+2025-09-13 17:30:38 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 17:30:40 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_products_page_loads - COMPLETED (11.55s)

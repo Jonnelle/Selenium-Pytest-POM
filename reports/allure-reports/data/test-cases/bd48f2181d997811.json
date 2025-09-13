@@ -1,0 +1,376 @@
+{
+  "uid" : "bd48f2181d997811",
+  "name" : "验证联系我们页面加载",
+  "fullName" : "tests.test_contact_us.TestContactUs#test_contact_us_page_loads",
+  "historyId" : "500f8d9e625c4713ddd99ee7a1906515",
+  "time" : {
+    "start" : 1757755761605,
+    "stop" : 1757755767232,
+    "duration" : 5627
+  },
+  "description" : "测试联系我们页面能够正确加载",
+  "descriptionHtml" : "<p>测试联系我们页面能够正确加载</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757755757377,
+      "stop" : 1757755761382,
+      "duration" : 4005
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757755674723,
+      "stop" : 1757755674739,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757755761383,
+      "stop" : 1757755761554,
+      "duration" : 171
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757755761554,
+      "stop" : 1757755761605,
+      "duration" : 51
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757755674615,
+      "stop" : 1757755674723,
+      "duration" : 108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757755674739,
+      "stop" : 1757755674739,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestContactUs",
+    "time" : {
+      "start" : 1757755757377,
+      "stop" : 1757755757377,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试联系我们页面能够正确加载",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "导航到联系我们页面",
+      "time" : {
+        "start" : 1757755761614,
+        "stop" : 1757755767053,
+        "duration" : 5439
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "导航到联系我们页面",
+        "time" : {
+          "start" : 1757755761614,
+          "stop" : 1757755767053,
+          "duration" : 5439
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证联系我们页面页面加载",
+          "time" : {
+            "start" : 1757755767019,
+            "stop" : 1757755767053,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证'Get In Touch'标题",
+      "time" : {
+        "start" : 1757755767053,
+        "stop" : 1757755767076,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证表单字段",
+      "time" : {
+        "start" : 1757755767076,
+        "stop" : 1757755767231,
+        "duration" : 155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "58e9cde7045572ad",
+      "name" : "stdout",
+      "source" : "58e9cde7045572ad.txt",
+      "type" : "text/plain",
+      "size" : 1941
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757755767252,
+      "stop" : 1757755769486,
+      "duration" : 2234
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestContactUs::0",
+    "time" : {
+      "start" : 1757755769488,
+      "stop" : 1757755769488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "页面加载"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "feature",
+    "value" : "联系我们功能"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "contact"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_contact_us"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestContactUs"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "18852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_contact_us"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "28eef341dff904f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757753185955,
+        "stop" : 1757753193992,
+        "duration" : 8037
+      }
+    }, {
+      "uid" : "1c1f376b80aabae9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1757749997126,
+        "stop" : 1757750001643,
+        "duration" : 4517
+      }
+    }, {
+      "uid" : "7f967f0c34b29d1d",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749138203,
+        "stop" : 1757749138203,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b72dffde6c60efcb",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749135154,
+        "stop" : 1757749135154,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a20e31d57694d9f4",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757749132107,
+        "stop" : 1757749132107,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c6308abe695c14f0",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748802342,
+        "stop" : 1757748802342,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7fabe969ffd57eba",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748799289,
+        "stop" : 1757748799289,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "867a47392212372f",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "time" : {
+        "start" : 1757748796263,
+        "stop" : 1757748796263,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "contact", "smoke", "allure" ]
+  },
+  "source" : "bd48f2181d997811.json",
+  "parameterValues" : [ ]
+}

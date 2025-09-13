@@ -1,0 +1,343 @@
+{
+  "uid" : "1a56afcbc86b3d78",
+  "name" : "有效用户登录成功",
+  "fullName" : "tests.test_user_authentication.TestUserAuthentication#test_valid_user_login",
+  "historyId" : "046d5fc4db15d4f3441a52fe936e97c6",
+  "time" : {
+    "start" : 1757753443826,
+    "stop" : 1757753460427,
+    "duration" : 16601
+  },
+  "description" : "测试有效用户能够成功登录",
+  "descriptionHtml" : "<p>测试有效用户能够成功登录</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 登录应该成功并跳转，但仍在登录页面: https://automationexercise.com/login\nassert False",
+  "statusTrace" : "tests\\test_user_authentication.py:147: in test_valid_user_login\n    self.assert_with_screenshot(\ntests\\base_test.py:297: in assert_with_screenshot\n    assert condition, message\nE   AssertionError: 登录应该成功并跳转，但仍在登录页面: https://automationexercise.com/login\nE   assert False",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757753083796,
+      "stop" : 1757753083919,
+      "duration" : 123
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_data",
+    "time" : {
+      "start" : 1757753443593,
+      "stop" : 1757753443771,
+      "duration" : 178
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1757753443771,
+      "stop" : 1757753443825,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757753083920,
+      "stop" : 1757753083928,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication",
+    "time" : {
+      "start" : 1757753437513,
+      "stop" : 1757753437514,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757753437514,
+      "stop" : 1757753443593,
+      "duration" : 6079
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757753083928,
+      "stop" : 1757753083941,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试有效用户能够成功登录",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 登录应该成功并跳转，但仍在登录页面: https://automationexercise.com/login\nassert False",
+    "statusTrace" : "tests\\test_user_authentication.py:147: in test_valid_user_login\n    self.assert_with_screenshot(\ntests\\base_test.py:297: in assert_with_screenshot\n    assert condition, message\nE   AssertionError: 登录应该成功并跳转，但仍在登录页面: https://automationexercise.com/login\nE   assert False",
+    "steps" : [ {
+      "name" : "导航到登录页面",
+      "time" : {
+        "start" : 1757753443827,
+        "stop" : 1757753452932,
+        "duration" : 9105
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "导航到登录页面",
+        "time" : {
+          "start" : 1757753443827,
+          "stop" : 1757753452932,
+          "duration" : 9105
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "验证登录页面页面加载",
+          "time" : {
+            "start" : 1757753452859,
+            "stop" : 1757753452932,
+            "duration" : 73
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证登录表单可见",
+      "time" : {
+        "start" : 1757753452932,
+        "stop" : 1757753452956,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入登录凭据",
+      "time" : {
+        "start" : 1757753452956,
+        "stop" : 1757753457240,
+        "duration" : 4284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "验证登录成功",
+      "time" : {
+        "start" : 1757753457240,
+        "stop" : 1757753460426,
+        "duration" : 3186
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: 登录应该成功并跳转，但仍在登录页面: https://automationexercise.com/login\nassert False\n",
+      "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\test_user_authentication.py\", line 147, in test_valid_user_login\n    self.assert_with_screenshot(\n  File \"D:\\LAB\\Selenium-Pytest-POM\\tests\\base_test.py\", line 297, in assert_with_screenshot\n    assert condition, message\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "263399702cb9592b",
+        "name" : "Screenshot_assertion_failed",
+        "source" : "263399702cb9592b.png",
+        "type" : "image/png",
+        "size" : 88904
+      }, {
+        "uid" : "a3635c1427aa0014",
+        "name" : "Page Source",
+        "source" : "a3635c1427aa0014.html",
+        "type" : "text/html",
+        "size" : 26876
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "96a19b15f7363e7d",
+      "name" : "截图_test_valid_user_login",
+      "source" : "96a19b15f7363e7d.png",
+      "type" : "image/png",
+      "size" : 88905
+    }, {
+      "uid" : "a4864e3752ed3143",
+      "name" : "stdout",
+      "source" : "a4864e3752ed3143.txt",
+      "type" : "text/plain",
+      "size" : 2734
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication::0",
+    "time" : {
+      "start" : 1757753462940,
+      "stop" : 1757753462941,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup::0",
+    "time" : {
+      "start" : 1757753460583,
+      "stop" : 1757753462938,
+      "duration" : 2355
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "用户认证功能"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAuthentication"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "20344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke", "login", "allure" ]
+  },
+  "source" : "1a56afcbc86b3d78.json",
+  "parameterValues" : [ ]
+}

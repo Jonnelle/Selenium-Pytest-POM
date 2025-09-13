@@ -1,0 +1,190 @@
+{
+  "uid" : "ebe98918c3831afc",
+  "name" : "搜索产品功能",
+  "fullName" : "tests.test_products.TestProducts#test_product_search_basic",
+  "historyId" : "661888d7fadf04125a110298178ac943",
+  "time" : {
+    "start" : 1757748827041,
+    "stop" : 1757748827041,
+    "duration" : 0
+  },
+  "description" : "测试产品搜索功能的基本操作",
+  "descriptionHtml" : "<p>测试产品搜索功能的基本操作</p>\n",
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'os' referenced before assignment",
+  "statusTrace" : "conftest.py:74: in browser_setup\n    driver = _setup_chrome_driver(headless, config)\nconftest.py:115: in _setup_chrome_driver\n    \"download.default_directory\": os.path.abspath(\"downloads\"),\nE   UnboundLocalError: local variable 'os' referenced before assignment",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "config",
+    "time" : {
+      "start" : 1757748783713,
+      "stop" : 1757748783722,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757748827041,
+      "stop" : 1757748827045,
+      "duration" : 4
+    },
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'os' referenced before assignment\n",
+    "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 53, in run_old_style_hookwrapper\n    return result.get_result()\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_result.py\", line 103, in get_result\n    raise exc.with_traceback(tb)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 121, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\_pytest\\fixtures.py\", line 1123, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\_pytest\\fixtures.py\", line 895, in call_fixture_func\n    fixture_result = next(generator)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\conftest.py\", line 74, in browser_setup\n    driver = _setup_chrome_driver(headless, config)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\conftest.py\", line 115, in _setup_chrome_driver\n    \"download.default_directory\": os.path.abspath(\"downloads\"),\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757748783598,
+      "stop" : 1757748783713,
+      "duration" : 115
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757748783722,
+      "stop" : 1757748783735,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestProducts",
+    "time" : {
+      "start" : 1757748827041,
+      "stop" : 1757748827041,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试产品搜索功能的基本操作",
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'os' referenced before assignment",
+    "statusTrace" : "conftest.py:74: in browser_setup\n    driver = _setup_chrome_driver(headless, config)\nconftest.py:115: in _setup_chrome_driver\n    \"download.default_directory\": os.path.abspath(\"downloads\"),\nE   UnboundLocalError: local variable 'os' referenced before assignment",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5325a17f1ecee62",
+      "name" : "stdout",
+      "source" : "e5325a17f1ecee62.txt",
+      "type" : "text/plain",
+      "size" : 1113
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestProducts::0",
+    "time" : {
+      "start" : 1757748827069,
+      "stop" : 1757748827069,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "产品搜索"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "产品功能"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_products"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProducts"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "20172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_products"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "product", "smoke", "allure" ]
+  },
+  "source" : "ebe98918c3831afc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,41 @@
+2025-09-13 15:53:23 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_submit_contact_form_success
+2025-09-13 15:53:23 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 15:53:31 | INFO | utils.logger:data_operation:129 | 📊 Data Operation: Generated contact form data (Contact)
+2025-09-13 15:53:40 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 15:53:40 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/contact_us'
+2025-09-13 15:53:40 | INFO | utils.logger:step:86 | 🔸 STEP: Opened contact us page
+2025-09-13 15:53:40 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying contact us page loaded
+2025-09-13 15:53:40 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 15:53:40 | INFO | utils.logger:step:86 | 🔸 STEP: Filling contact form - Name: 潘丽丽, Email: yang46@example.net
+2025-09-13 15:53:40 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='name']''
+2025-09-13 15:53:40 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='name']' text='潘丽丽''
+2025-09-13 15:53:40 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='email']''
+2025-09-13 15:53:40 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='email']' text='yang46@example.net''
+2025-09-13 15:53:40 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//input[@data-qa='subject']''
+2025-09-13 15:53:41 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//input[@data-qa='subject']' text='Wall memory stand general lawyer in.''
+2025-09-13 15:53:41 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element visible on 'xpath='//textarea[@data-qa='message']''
+2025-09-13 15:53:42 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Sent keys on 'xpath='//textarea[@data-qa='message']' text='发表可以得到电子虽然国家.所有具有学习推荐回复如此名称.
+地址部门经济具有.大家事情可能过程等级.
+说明一种个人.状态控制为什的人主题产品.问题积分得到广告.
+只要也是我们分析查看.通过一样同时标题.
+或者商品的话计划一起.关于一起根据的人因为成功.
+这个留言成功今年文件资源电子喜欢.时候这是如何其实到了.学习制作业务是一深圳注意说明.
+注册生产包括选择电话.
+论坛上海以后市场为什是一如果.次数设备评论学生能力.通过实现感觉喜欢一起.
+只是任何公司应用次数业务社会.来源城市最后.简介日本我的操作那些.
+合作社会专业.显示感觉觉得这个.质量因此加入北京历史功能程序.
+表示你的项目各种以及的人的人.很多次数功能已经其中不会自己以后.
+比较功能地址服务这里.进行控制增加次数那么.选择资料状态人员有关.一次国家觉得电话次数.
+准备管理地方游戏新闻.只是专业经营其他社区.
+发表更多具有得到.对于增加工具也是游戏文章状态.还有进入出现而且评论.
+相关参加事情帮助不断经营.商品管理投资部分你们分析有些.类别文件来自如何也是提高.
+可能参加原因地址.比较最后两个登录.会员的是怎么日期同时系列.''
+2025-09-13 15:53:42 | INFO | utils.logger:step:86 | 🔸 STEP: Clicking submit button
+2025-09-13 15:53:42 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Element clickable on 'xpath='//input[@data-qa='submit-button']''
+2025-09-13 15:53:42 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Clicked element on 'xpath='//input[@data-qa='submit-button']''
+2025-09-13 15:53:42 | INFO | utils.logger:step:86 | 🔸 STEP: Handling JavaScript alert
+2025-09-13 15:53:42 | INFO | utils.logger:step:86 | 🔸 STEP: Alert accepted
+2025-09-13 15:53:45 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying success message
+2025-09-13 15:53:45 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 15:53:45 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 15:53:48 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_submit_contact_form_success - COMPLETED (24.42s)

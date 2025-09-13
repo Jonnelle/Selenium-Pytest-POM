@@ -1,0 +1,98 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "UnboundLocalError: local variable 'os' referenced before assignment",
+      "children" : [ {
+        "name" : "验证产品分类功能",
+        "uid" : "3e447fe1dc7948be",
+        "parentUid" : "96d0235f0acc9b936234365149860559",
+        "status" : "broken",
+        "time" : {
+          "start" : 1757749085714,
+          "stop" : 1757749085714,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "96d0235f0acc9b936234365149860559"
+    }, {
+      "name" : "AttributeError: 'HomePage' object has no attribute 'add_product_to_cart_by_index'",
+      "children" : [ {
+        "name" : "从首页添加商品到购物车",
+        "uid" : "97cecaac64ede7c8",
+        "parentUid" : "a528e879afe85edf592819e10f42c3fb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1757755749121,
+          "stop" : 1757755754896,
+          "duration" : 5775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a528e879afe85edf592819e10f42c3fb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 应该跳转到购物车页面，当前URL: https://automationexercise.com/products\nassert False",
+      "children" : [ {
+        "name" : "添加产品到购物车",
+        "uid" : "1d2b7758073d98fb",
+        "parentUid" : "5b1f7b6c390eeb5bf3c655c7a80a1f60",
+        "status" : "failed",
+        "time" : {
+          "start" : 1757755948764,
+          "stop" : 1757755982662,
+          "duration" : 33898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b1f7b6c390eeb5bf3c655c7a80a1f60"
+    }, {
+      "name" : "AssertionError: 登录应该成功并跳转，但仍在登录页面: https://automationexercise.com/login\nassert False",
+      "children" : [ {
+        "name" : "有效用户登录成功",
+        "uid" : "d8b5384189d21f05",
+        "parentUid" : "429a130ae5b23e15aed313f34a0bcede",
+        "status" : "failed",
+        "time" : {
+          "start" : 1757756727952,
+          "stop" : 1757756741726,
+          "duration" : 13774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "429a130ae5b23e15aed313f34a0bcede"
+    }, {
+      "name" : "AssertionError: 有效凭据登录应该成功，当前URL: https://automationexercise.com/login\nassert False",
+      "children" : [ {
+        "name" : "参数化登录测试",
+        "uid" : "6cc26a2d4ba9af0",
+        "parentUid" : "b19ff60b9e5eb7286ae83490a3d0e1e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1757756923605,
+          "stop" : 1757756934440,
+          "duration" : 10835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'testuser@example.com'", "'success'", "'Test123456'" ]
+      } ],
+      "uid" : "b19ff60b9e5eb7286ae83490a3d0e1e6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

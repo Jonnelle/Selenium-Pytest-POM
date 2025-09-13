@@ -127,7 +127,6 @@ def _setup_chrome_driver(headless: bool, config: ConfigManager) -> webdriver.Chr
         # 确保路径指向正确的chromedriver.exe
         if not driver_path.endswith('.exe'):
             # 如果路径不是.exe文件，尝试找到正确的chromedriver.exe
-            import os
             driver_dir = os.path.dirname(driver_path)
             for file in os.listdir(driver_dir):
                 if file.startswith('chromedriver') and file.endswith('.exe'):

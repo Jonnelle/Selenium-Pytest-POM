@@ -1,0 +1,190 @@
+{
+  "uid" : "b94925f204baee8a",
+  "name" : "注册后立即登录",
+  "fullName" : "tests.test_user_authentication.TestUserAuthentication#test_registration_and_login_flow",
+  "historyId" : "ff4ae0294b62da8c736002a3148120f8",
+  "time" : {
+    "start" : 1757749184291,
+    "stop" : 1757749184291,
+    "duration" : 0
+  },
+  "description" : "测试注册新用户后立即登录的完整流程",
+  "descriptionHtml" : "<p>测试注册新用户后立即登录的完整流程</p>\n",
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'os' referenced before assignment",
+  "statusTrace" : "conftest.py:74: in browser_setup\n    driver = _setup_chrome_driver(headless, config)\nconftest.py:115: in _setup_chrome_driver\n    \"download.default_directory\": os.path.abspath(\"downloads\"),\nE   UnboundLocalError: local variable 'os' referenced before assignment",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1757749119446,
+      "stop" : 1757749119565,
+      "duration" : 119
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication",
+    "time" : {
+      "start" : 1757749184291,
+      "stop" : 1757749184291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logger",
+    "time" : {
+      "start" : 1757749119565,
+      "stop" : 1757749119581,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "browser_setup",
+    "time" : {
+      "start" : 1757749184291,
+      "stop" : 1757749184291,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'os' referenced before assignment\n",
+    "statusTrace" : "  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 53, in run_old_style_hookwrapper\n    return result.get_result()\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_result.py\", line 103, in get_result\n    raise exc.with_traceback(tb)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\pluggy\\_callers.py\", line 121, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\_pytest\\fixtures.py\", line 1123, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\.venv1\\lib\\site-packages\\_pytest\\fixtures.py\", line 895, in call_fixture_func\n    fixture_result = next(generator)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\conftest.py\", line 74, in browser_setup\n    driver = _setup_chrome_driver(headless, config)\n  File \"D:\\LAB\\Selenium-Pytest-POM\\conftest.py\", line 115, in _setup_chrome_driver\n    \"download.default_directory\": os.path.abspath(\"downloads\"),\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  }, {
+    "name" : "config",
+    "time" : {
+      "start" : 1757749119565,
+      "stop" : 1757749119565,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "测试注册新用户后立即登录的完整流程",
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'os' referenced before assignment",
+    "statusTrace" : "conftest.py:74: in browser_setup\n    driver = _setup_chrome_driver(headless, config)\nconftest.py:115: in _setup_chrome_driver\n    \"download.default_directory\": os.path.abspath(\"downloads\"),\nE   UnboundLocalError: local variable 'os' referenced before assignment",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7082cfb4eabea0e5",
+      "name" : "stdout",
+      "source" : "7082cfb4eabea0e5.txt",
+      "type" : "text/plain",
+      "size" : 360
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestUserAuthentication::0",
+    "time" : {
+      "start" : 1757749184306,
+      "stop" : 1757749184306,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户认证功能"
+  }, {
+    "name" : "epic",
+    "value" : "AutomationExercise网站测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "完整流程"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "allure"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAuthentication"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-D5VPIFL"
+  }, {
+    "name" : "thread",
+    "value" : "18184-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_user_authentication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke", "login", "allure" ]
+  },
+  "source" : "b94925f204baee8a.json",
+  "parameterValues" : [ ]
+}

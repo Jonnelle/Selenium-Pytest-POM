@@ -1,0 +1,17 @@
+2025-09-13 17:29:17 | INFO | utils.logger:test_start:113 | 🚀 Test Started: test_contact_us_page_loads
+2025-09-13 17:29:17 | INFO | utils.logger:info:62 | 启动 chrome 浏览器，headless模式: False
+2025-09-13 17:29:27 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Page loaded
+2025-09-13 17:29:27 | INFO | utils.logger:page_action:105 | 🔄 Page Action: Opened page on 'https://automationexercise.com/contact_us'
+2025-09-13 17:29:27 | INFO | utils.logger:step:86 | 🔸 STEP: Opened contact us page
+2025-09-13 17:29:27 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying contact us page loaded
+2025-09-13 17:29:27 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:29:27 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying 'Get In Touch' title
+2025-09-13 17:29:27 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:29:27 | INFO | utils.logger:step:86 | 🔸 STEP: Verifying form fields visible
+2025-09-13 17:29:27 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:29:27 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:29:27 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:29:27 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:29:27 | INFO | utils.logger:assertion:109 | 🔍 Assertion: Element visibility | Expected: 'visible' | Actual: 'visible'
+2025-09-13 17:29:27 | INFO | utils.logger:info:62 | 关闭浏览器
+2025-09-13 17:29:29 | INFO | utils.logger:test_end:119 | ⏭️ Test Finished: test_contact_us_page_loads - COMPLETED (12.11s)

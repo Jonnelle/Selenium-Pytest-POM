@@ -1,0 +1,302 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_home_page",
+      "children" : [ {
+        "name" : "验证产品分类功能",
+        "uid" : "3e447fe1dc7948be",
+        "parentUid" : "31b4cfee421921fa82e64ae0ffa80386",
+        "status" : "broken",
+        "time" : {
+          "start" : 1757749085714,
+          "stop" : 1757749085714,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "验证首页加载成功",
+        "uid" : "20d403da45cef3ff",
+        "parentUid" : "31b4cfee421921fa82e64ae0ffa80386",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757755791371,
+          "stop" : 1757755802618,
+          "duration" : 11247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31b4cfee421921fa82e64ae0ffa80386"
+    }, {
+      "name" : "test_cart",
+      "children" : [ {
+        "name" : "验证购物车页面加载",
+        "uid" : "cbd4446afafdc098",
+        "parentUid" : "d9b85e0d746bbd0d779365979465a81a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757755682160,
+          "stop" : 1757755707054,
+          "duration" : 24894
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "从首页添加商品到购物车",
+        "uid" : "97cecaac64ede7c8",
+        "parentUid" : "d9b85e0d746bbd0d779365979465a81a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1757755749121,
+          "stop" : 1757755754896,
+          "duration" : 5775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d9b85e0d746bbd0d779365979465a81a"
+    }, {
+      "name" : "test_contact_us",
+      "children" : [ {
+        "name" : "验证联系我们页面加载",
+        "uid" : "bd48f2181d997811",
+        "parentUid" : "d4d2d111225a377505aa5c5ae34829cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757755761605,
+          "stop" : 1757755767232,
+          "duration" : 5627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "成功提交联系表单",
+        "uid" : "5ac95bf8a708bf69",
+        "parentUid" : "d4d2d111225a377505aa5c5ae34829cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757755773688,
+          "stop" : 1757755783124,
+          "duration" : 9436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4d2d111225a377505aa5c5ae34829cb"
+    }, {
+      "name" : "test_products",
+      "children" : [ {
+        "name" : "验证产品页面加载",
+        "uid" : "6942a202c6f7559f",
+        "parentUid" : "499a9cb61cb3aafbcb13ade4a871f1e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757755833697,
+          "stop" : 1757755838538,
+          "duration" : 4841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "搜索产品功能",
+        "uid" : "f3c8c6c448e2d997",
+        "parentUid" : "499a9cb61cb3aafbcb13ade4a871f1e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757755845523,
+          "stop" : 1757755856771,
+          "duration" : 11248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "添加产品到购物车",
+        "uid" : "1d2b7758073d98fb",
+        "parentUid" : "499a9cb61cb3aafbcb13ade4a871f1e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1757755948764,
+          "stop" : 1757755982662,
+          "duration" : 33898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "499a9cb61cb3aafbcb13ade4a871f1e4"
+    }, {
+      "name" : "test_user_authentication",
+      "children" : [ {
+        "name" : "新用户注册成功",
+        "uid" : "8f3d4c6c35a58eb8",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757756573388,
+          "stop" : 1757756597876,
+          "duration" : 24488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "已存在邮箱注册失败",
+        "uid" : "bcbe3919c8f8a065",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757756604625,
+          "stop" : 1757756618431,
+          "duration" : 13806
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "注册表单验证",
+        "uid" : "386f1714aa667607",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757756625613,
+          "stop" : 1757756635025,
+          "duration" : 9412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "有效用户登录成功",
+        "uid" : "d8b5384189d21f05",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1757756727952,
+          "stop" : 1757756741726,
+          "duration" : 13774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "无效用户登录失败",
+        "uid" : "2f535f8dcf3c6f70",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757756794615,
+          "stop" : 1757756807076,
+          "duration" : 12461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "空凭据登录失败",
+        "uid" : "5e1994de2e0bc3b6",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757756830952,
+          "stop" : 1757756842423,
+          "duration" : 11471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录表单验证",
+        "uid" : "f75b4fe1c3d00377",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757756849588,
+          "stop" : 1757756855545,
+          "duration" : 5957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "参数化登录测试",
+        "uid" : "6cc26a2d4ba9af0",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1757756923605,
+          "stop" : 1757756934440,
+          "duration" : 10835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'testuser@example.com'", "'success'", "'Test123456'" ]
+      }, {
+        "name" : "参数化登录测试",
+        "uid" : "59a358fde5e9c5aa",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757756941173,
+          "stop" : 1757756951604,
+          "duration" : 10431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'invalid@email.com'", "'failure'", "'wrongpass'" ]
+      }, {
+        "name" : "参数化登录测试",
+        "uid" : "55cb829fc011dfa0",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757757063871,
+          "stop" : 1757757072965,
+          "duration" : 9094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'failure'", "''" ]
+      }, {
+        "name" : "参数化登录测试",
+        "uid" : "c2cadbe2a82e6b90",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757757079505,
+          "stop" : 1757757091670,
+          "duration" : 12165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'user@test.com'", "'failure'", "'invalidpass'" ]
+      }, {
+        "name" : "注册后立即登录",
+        "uid" : "3280c9bc3762fa26",
+        "parentUid" : "3878095dcb603b915a0de0b8b2cbe9ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1757757099400,
+          "stop" : 1757757136414,
+          "duration" : 37014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3878095dcb603b915a0de0b8b2cbe9ab"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}
